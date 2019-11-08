@@ -1,3 +1,4 @@
+package app;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -24,10 +25,8 @@ public class Jaccard {
 				
 			}
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return occurences;
@@ -51,11 +50,5 @@ public class Jaccard {
 			return 0;
 		
 		return numerateur/denominateur;
-	}
-	
-	public static void main (String[] args) {
-		HashMap<String, Integer> doc1 = getOccurences("test1.txt");
-		HashMap<String, Integer> doc2 = getOccurences("test2.txt");
-		System.out.println(distanceJaccard(doc2, doc1));
 	}
 }
