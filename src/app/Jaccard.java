@@ -74,15 +74,15 @@ public class Jaccard {
 	
 	
 	/**MAYBE TO DO**/
-	public static double betweenness(ArrayList<String> doc, double edgeThreshold) {
+	public static double betweenness(ArrayList<String> documents, double edgeThreshold) {
 		double numerateur = 0;
 		double denominateur = 0;
 		
 		
-		int[][] paths=new int[doc.size()][doc.size()];
+		int[][] paths=new int[documents.size()][documents.size()];
 		for (int i=0;i<paths.length;i++) for (int j=0;j<paths.length;j++) paths[i][j]=i;
 		
-		double[][] dist=new double[doc.size()][doc.size()];
+		double[][] dist=new double[documents.size()][documents.size()];
 
 	    for (int i=0;i<paths.length;i++) {
 	    	for (int j=0;j<paths.length;j++) {
@@ -91,8 +91,8 @@ public class Jaccard {
 	    			continue;
 	    		}
 	        
-	    		HashMap<String, Integer> d1 = getOccurences(doc.get(i));
-	    		HashMap<String, Integer> d2 = getOccurences(doc.get(j));
+	    		HashMap<String, Integer> d1 = getOccurences(documents.get(i));
+	    		HashMap<String, Integer> d2 = getOccurences(documents.get(j));
 	    		double d = distanceJaccard(d1, d2);
 	        
 	    		if (d <= edgeThreshold)
@@ -103,6 +103,8 @@ public class Jaccard {
 	    		paths[i][j]=j;
 	    	}
 	    }
+	    
+	    HashMap<Integer, Double> ppcs = new HashMap<>();  
 	    
 	    for (int k=0;k<paths.length;k++) {
 	    	for (int i=0;i<paths.length;i++) {
@@ -116,8 +118,25 @@ public class Jaccard {
 	    	}
 	    }
 	    
+	    for (int k=0;k<paths.length;k++) {
+	    	for (int i=0;i<paths.length;i++) {
+	    		for (int j=0;j<paths.length;j++) {
+	    			if (dist[i][j]>dist[i][k] + dist[k][j]){
+	    				if(ppcs.get(k) != null)
+	    					ppcs.put(k, 1.0);
+	    				else {
+	    					double b = ppcs.get(k);
+	    					ppcs.put(k, b++);
+	    				}
+	    			} else {
+	    				ppcs.put(k, nb_ppc_passant_par(paths, dist, i, j, k));
+	    			}
+	    		}
+	    	}
+	    }
+	    
 	    /** Si a faire , reprendre ici **/
-		
+	    		
 		if(denominateur == 0)
 			return 0;
 		
@@ -130,9 +149,14 @@ public class Jaccard {
 	}
 	
 	/** Retourne le nb de ppc possible de depart a arrivee qui passe par point **/
-	public static int nb_ppc_passant_par(int[][] paths, int[][]dist, int depart, int arrivee, int point) {
-		
-		return 0;
+	public static double nb_ppc_passant_par(int[][] paths, double[][]dist, int depart, int arrivee, int point) {
+		double b = 0;
+		int x = depart;
+		while(x != point) {
+			// x vaut le point suivant
+			// on incrémente b
+		}
+		return b;
 	}
 	
 	/** Retourne le nb de ppc possible de depart a arrivee **/

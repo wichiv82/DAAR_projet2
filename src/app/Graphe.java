@@ -30,7 +30,6 @@ public class Graphe {
 		this.seuil = seuil;
 		for (int i = 0; i < dist_jaccard.length; i++) {
 			for (int j = 0; j < dist_jaccard.length; j++) {
-				
 				HashMap<String, Integer> d1 = Jaccard.getOccurences(filenames.get(i));
 				HashMap<String, Integer> d2 = Jaccard.getOccurences(filenames.get(j));
 				dist_jaccard[i][j] = Jaccard.distanceJaccard(d1, d2);
