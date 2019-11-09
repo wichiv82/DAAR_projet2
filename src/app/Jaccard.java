@@ -72,9 +72,12 @@ public class Jaccard {
 		return (nbDocuments) / denominateur;
 	}
 	
+	
 	/**MAYBE TO DO**/
 	public static double betweenness(ArrayList<String> doc, double edgeThreshold) {
+		double numerateur = 0;
 		double denominateur = 0;
+		
 		
 		int[][] paths=new int[doc.size()][doc.size()];
 		for (int i=0;i<paths.length;i++) for (int j=0;j<paths.length;j++) paths[i][j]=i;
@@ -111,16 +114,30 @@ public class Jaccard {
 	    			}
 	    		}
 	    	}
-	    }	
+	    }
+	    
+	    /** Si a faire , reprendre ici **/
 		
 		if(denominateur == 0)
 			return 0;
 		
-		return (doc.size()-1) / denominateur; // FAUX, RETOURNER LA FORMULE DU FUTUR AVEC LES PPC :
+		return numerateur/ denominateur; // FAUX, RETOURNER LA FORMULE DU FUTUR AVEC LES PPC :
 		
 		// B(v) = Somme(#ppc (s,t passent par v) / #ppc (s,t) ) 
 		// avec s != t € V
 		// 		s != v
 		//		t != v
+	}
+	
+	/** Retourne le nb de ppc possible de depart a arrivee qui passe par point **/
+	public static int nb_ppc_passant_par(int[][] paths, int[][]dist, int depart, int arrivee, int point) {
+		
+		return 0;
+	}
+	
+	/** Retourne le nb de ppc possible de depart a arrivee **/
+	public static int nb_ppc_(int[][] paths, int[][]dist, int depart, int arrivee) {
+		
+		return 0;
 	}
 }
