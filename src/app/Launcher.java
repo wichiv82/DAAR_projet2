@@ -12,7 +12,7 @@ public class Launcher {
 //		Test de la classe Graphe
 		Graphe G = new Graphe(4, "list_of_documents", 0);
 		for (int i = 0; i < G.dist_jaccard.length; i++) {
-			for (int j = 0; j < G.dist_jaccard.length; j++) {
+			for (int j = i+1; j < G.dist_jaccard.length; j++) {
 				System.out.println("Jaccard entre : " + G.filenames.get(i) + " et " + G.filenames.get(j));
 				System.out.println(G.dist_jaccard[i][j]);
 				System.out.println();
