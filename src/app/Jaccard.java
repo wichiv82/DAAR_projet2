@@ -18,7 +18,7 @@ public class Jaccard {
 				String words[] = line.trim().split("[^a-zA-Z]");
 				for(String w : words) {
 					if(occurences.containsKey(w))
-						occurences.put(w, occurences.get(w) +1);
+						occurences.put(w, occurences.get(w) + 1);
 					else 
 						occurences.put(w, 1);
 				}
@@ -45,6 +45,29 @@ public class Jaccard {
 				denominateur += kMax;
 			}
 		}
+		
+		if(denominateur == 0)
+			return 0;
+		
+		return numerateur/denominateur;
+	}
+	
+	public static double distanceJaccard_stream(HashMap<String, Integer> d1, HashMap<String, Integer> d2) {
+		
+		ArrayList<String> mots1 = new ArrayList<String>(d1.keySet());
+		ArrayList<String> mots2 = new ArrayList<String>(d2.keySet());
+		
+		double numerateur = 
+		mots1.stream()
+			.filter(x -> mots2.contains(x))
+			.map(x -> Math.max(d1.get(x), d2.get(x)) - Math.min(d1.get(x), d2.get(x)))
+			.reduce(0, Integer::sum);
+		
+		double denominateur = 
+				mots1.stream()
+					.filter(x -> mots2.contains(x))
+					.map(x -> Math.max(d1.get(x), d2.get(x)))
+					.reduce(0, Integer::sum);
 		
 		if(denominateur == 0)
 			return 0;
@@ -154,7 +177,7 @@ public class Jaccard {
 		int x = depart;
 		while(x != point) {
 			// x vaut le point suivant
-			// on incrémente b
+			// on incrï¿½mente b
 		}
 		return b;
 	}
