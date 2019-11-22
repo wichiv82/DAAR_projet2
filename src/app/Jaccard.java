@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class Jaccard {
 	
@@ -33,17 +34,37 @@ public class Jaccard {
 		
 	}
 	
+	public static int[] getMaxMin(HashMap<String, Integer> d1, HashMap<String, Integer> d2, String mot) {
+		int[] result = new int[2];
+		
+		if(d1.containsKey(mot) && d2.containsKey(mot)) {
+			result[0] = Math.max(d1.get(mot), d2.get(mot));
+			result[1] = Math.min(d1.get(mot), d2.get(mot));
+		} else if(d1.containsKey(mot)) {
+			result[0] = d1.get(mot);
+			result[1] = 0;
+		} else if (d2.containsKey(mot)) {
+			result[0] = d2.get(mot);
+			result[1] = 0;
+		} else {
+			result[0] = 0;
+			result[1] = 0;
+		}
+		
+		return result;
+	}
+	
 	public static double distanceJaccard(HashMap<String, Integer> d1, HashMap<String, Integer> d2) {
+		HashSet<String> mots = new HashSet<String>(d1.keySet());
+		mots.addAll(d2.keySet());
+		
 		double numerateur = 0;
 		double denominateur = 0;
 		
-		for(String key : d1.keySet()) {
-			if(d2.containsKey(key)) {
-				int kMax = Math.max(d1.get(key), d2.get(key));
-				int kMin = Math.min(d1.get(key), d2.get(key));
-				numerateur += kMax - kMin;
-				denominateur += kMax;
-			}
+		for(String mot : mots) {
+			int[] max_min = getMaxMin(d1, d2, mot);
+			numerateur += max_min[0] - max_min[1];
+			denominateur += max_min[0];
 		}
 		
 		if(denominateur == 0)
@@ -53,21 +74,18 @@ public class Jaccard {
 	}
 	
 	public static double distanceJaccard_stream(HashMap<String, Integer> d1, HashMap<String, Integer> d2) {
-		
-		ArrayList<String> mots1 = new ArrayList<String>(d1.keySet());
-		ArrayList<String> mots2 = new ArrayList<String>(d2.keySet());
+		HashSet<String> mots = new HashSet<String>(d1.keySet());
+		mots.addAll(d2.keySet());
 		
 		double numerateur = 
-		mots1.stream()
-			.filter(x -> mots2.contains(x))
-			.map(x -> Math.max(d1.get(x), d2.get(x)) - Math.min(d1.get(x), d2.get(x)))
+		mots.stream()
+			.map(mot -> getMaxMin(d1, d2, mot)[0] - getMaxMin(d1, d2, mot)[1])
 			.reduce(0, Integer::sum);
 		
 		double denominateur = 
-				mots1.stream()
-					.filter(x -> mots2.contains(x))
-					.map(x -> Math.max(d1.get(x), d2.get(x)))
-					.reduce(0, Integer::sum);
+		mots.stream()
+			.map(mot -> getMaxMin(d1, d2, mot)[0])
+			.reduce(0, Integer::sum);
 		
 		if(denominateur == 0)
 			return 0;
@@ -76,25 +94,42 @@ public class Jaccard {
 	}
 	
 	
-	public static double closeness(String doc, ArrayList<String> documents) {
+	public static double closeness(String doc, ArrayList<String> files) {
+		ArrayList<String> documents = (ArrayList<String>) files.clone();
 		double denominateur = 0;
-		int nbDocuments = documents.size();
+		
+		// Cas ou le document a etudier est dans la liste
+		documents.remove(doc);
 		
 		HashMap<String, Integer> doc_occurences = getOccurences(doc);
 		
-		for(String file : documents) {
-			if(doc.equals(file))
-				nbDocuments--;
-			else
-				denominateur += distanceJaccard(doc_occurences, getOccurences(file));
-		}
+		for(String file : documents)
+			denominateur += distanceJaccard(doc_occurences, getOccurences(file));
 		
 		if(denominateur == 0)
 			return 0;
 		
-		return (nbDocuments) / denominateur;
+		return (documents.size()) / denominateur;
 	}
 	
+	public static double closeness_stream(String doc, ArrayList<String> files) {
+		ArrayList<String> documents = (ArrayList<String>) files.clone();
+		
+		// Cas ou le document a etudier est dans la liste
+		documents.remove(doc);
+		
+		HashMap<String, Integer> doc_occurences = getOccurences(doc);
+		
+		double denominateur = 
+				documents.stream()
+					.map(x -> distanceJaccard_stream(doc_occurences, getOccurences(x)))
+					.reduce(0.0, Double::sum);
+		
+		if(denominateur == 0.0)
+			return 0;
+		
+		return (documents.size()) / denominateur;
+	}
 	
 	/**MAYBE TO DO**/
 	public static double betweenness(ArrayList<String> documents, double edgeThreshold) {
