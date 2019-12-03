@@ -13,6 +13,10 @@ public class Launcher {
 		HashMap<String, Integer> doc3 = Jaccard.getOccurences("edgar.txt");
 		HashMap<String, Integer> doc4 = Jaccard.getOccurences("epic.txt");
 		
+		System.out.println(doc2.size());
+		String mot = "";
+		System.out.println("TEST FIREBSASE { " + mot + " : " + doc4.get(mot) +" }");
+		
 		ArrayList<String> filename = new ArrayList<String>();
 		filename.add("test1.txt");
 		filename.add("test2.txt");
