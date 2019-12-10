@@ -8,20 +8,26 @@ public class Launcher {
 	public static void main (String[] args) {
 		
 //		Test de la classe Jacquard		
-		HashMap<String, Integer> doc1 = Jaccard.getOccurences("test1.txt");
-		HashMap<String, Integer> doc2 = Jaccard.getOccurences("test2.txt");
-		HashMap<String, Integer> doc3 = Jaccard.getOccurences("edgar.txt");
-		HashMap<String, Integer> doc4 = Jaccard.getOccurences("epic.txt");
+		HashMap<String, Integer> doc1 = Jaccard.getOccurences("test1");
+		HashMap<String, Integer> doc2 = Jaccard.getOccurences("test2");
+		HashMap<String, Integer> doc3 = Jaccard.getOccurences("epic");
+		HashMap<String, Integer> doc4 = Jaccard.getOccurences("edgar");
 		
-		System.out.println(doc2.size());
+		System.out.println(doc3.size());
+		System.out.println(doc4.size());
+		int nb = 0;
+		for (String mot : doc3.keySet())
+			nb += doc3.get(mot);
+		System.out.println(nb);
+		
 		String mot = "";
 		System.out.println("TEST FIREBSASE { " + mot + " : " + doc4.get(mot) +" }");
 		
 		ArrayList<String> filename = new ArrayList<String>();
-		filename.add("test1.txt");
-		filename.add("test2.txt");
-		filename.add("edgar.txt");
-		filename.add("epic.txt");
+		filename.add("test1");
+		filename.add("test2");
+		filename.add("edgar");
+		filename.add("epic");
 		
 		System.out.println(Jaccard.distanceJaccard(doc2, doc1));
 		System.out.println(Jaccard.distanceJaccard_stream(doc1, doc2));

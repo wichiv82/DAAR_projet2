@@ -25,6 +25,7 @@ public class Jaccard {
 				}
 				
 			}
+			occurences.remove("");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -90,6 +91,7 @@ public class Jaccard {
 		if(denominateur == 0)
 			return 0;
 		
+		System.out.println(numerateur + " / " + denominateur);
 		return numerateur/denominateur;
 	}
 	
