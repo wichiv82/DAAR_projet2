@@ -29,6 +29,8 @@ public class Launcher {
 		filename.add("edgar");
 		filename.add("epic");
 		
+		
+		System.out.println("------- Jaccard ------");
 		System.out.println(Jaccard.distanceJaccard(doc2, doc1));
 		System.out.println(Jaccard.distanceJaccard_stream(doc1, doc2));
 		
@@ -41,6 +43,11 @@ public class Launcher {
 			System.out.println(Jaccard.closeness(filename.get(i), filename));
 			System.out.println(Jaccard.closeness_stream(filename.get(i), filename));
 		}
+		
+		System.out.println("------- Graphe de Jaccard ------");
+		double seuil = 1.0;
+		GrapheJaccard g = new GrapheJaccard(filename, seuil);
+		System.out.println(g);
 		
 //		Test de la classe Graphe
 //		Graphe G = new Graphe(4, "list_of_documents", 0);

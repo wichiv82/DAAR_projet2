@@ -35,6 +35,7 @@ public class Jaccard {
 		
 	}
 	
+	
 	public static int[] getMaxMin(HashMap<String, Integer> d1, HashMap<String, Integer> d2, String mot) {
 		int[] result = new int[2];
 		
@@ -91,7 +92,7 @@ public class Jaccard {
 		if(denominateur == 0)
 			return 0;
 		
-		System.out.println(numerateur + " / " + denominateur);
+		//System.out.println(numerateur + " / " + denominateur);
 		return numerateur/denominateur;
 	}
 	
