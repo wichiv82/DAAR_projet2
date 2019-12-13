@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class RadixTree {
 
 	HashMap<String, RadixTree> fils = new HashMap<String, RadixTree>();
-	ArrayList<Point> occurences = new ArrayList<Point>();
+	ArrayList<Point> occurrences = new ArrayList<Point>();
     boolean isWord = true;
 	String source_textfile_name;
 	
@@ -46,6 +46,19 @@ public class RadixTree {
 			br.close();
 		}
 	}
+	
+	/** Construction a partir d'une liste de mots **/
+	public RadixTree(HashMap<String, Integer> index) throws IOException {
+		
+		for(String mot : index.keySet()) {
+			ArrayList<Point> pos = new ArrayList<Point>();
+			
+			for (int i=0; i<index.get(mot); i++)
+				pos.add(new Point(0,0));
+			
+			addRadixTree(mot, pos);
+		}
+	}
 
 	/**
 	 * Ajoute un mot au RadixTree
@@ -66,7 +79,7 @@ public class RadixTree {
 			
 			if (mot.equals(key)) {
 				fils.get(key).isWord = true;
-				fils.get(key).occurences = pos;
+				fils.get(key).occurrences = pos;
 				return;
 			}
 
@@ -88,14 +101,14 @@ public class RadixTree {
 					
 					RadixTree u = new RadixTree();
 					u.fils = fils.get(key).fils;
-					u.occurences = fils.get(key).occurences;
+					u.occurrences = fils.get(key).occurrences;
 					
 					t.fils.put(key.substring(bon_char), u);
-					t.occurences = fils.get(key).occurences;
+					t.occurrences = fils.get(key).occurrences;
 					
 					
 					RadixTree v = new RadixTree();
-					v.occurences = pos;
+					v.occurrences = pos;
 					t.fils.put(mot.substring(bon_char), v);
 					
 					fils.put(key.substring(0, bon_char), t);
@@ -120,7 +133,7 @@ public class RadixTree {
 				RadixTree t = new RadixTree();
 				String suffixe2 = key.substring(mot.length());
 				
-				t.occurences = pos;
+				t.occurrences = pos;
 				t.isWord = isWord;
 
 				fils.put(mot, t);
@@ -133,7 +146,7 @@ public class RadixTree {
 
 		if (creer_fils) {
 			RadixTree t = new RadixTree();
-			t.occurences = pos;
+			t.occurrences = pos;
 			fils.put(mot, t);
 		} else if (cle != "") {
 			fils.get(cle).fils.get(k).addRadixTree(suffixe, pos);
@@ -153,7 +166,7 @@ public class RadixTree {
 		for (String key : fils.keySet()) {
 			if (fils.get(key).isWord) {
 				System.out.print(prefix + "("+key + ") : " + profondeur + " | ");
-				for (Point p : fils.get(key).occurences)
+				for (Point p : fils.get(key).occurrences)
 					System.out.print(p + " ");
 				System.out.println();
 
@@ -186,7 +199,7 @@ public class RadixTree {
 		for (String key : fils.keySet()) {
 			
 			if((temoin+key).equals(mot)) {
-				return fils.get(key).occurences;
+				return fils.get(key).occurrences;
 			}
 			
 			if (key.length() <= suffixe.length()) {

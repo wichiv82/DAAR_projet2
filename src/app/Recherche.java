@@ -25,7 +25,7 @@ public class Recherche {
 		
 		for(Node n : nodes) {
 			try {
-				RadixTree r = new RadixTree(n.getName());
+				RadixTree r = new RadixTree(n.getIndex());
 				int occurrences = r.searchMotif(mot).size();
 				if(occurrences > 0)
 					filename_result.put(n, occurrences);
@@ -93,46 +93,5 @@ public class Recherche {
 		
 		return res;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }
