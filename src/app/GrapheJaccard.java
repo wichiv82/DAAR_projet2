@@ -27,7 +27,8 @@ public class GrapheJaccard {
 		return null;
 	}
 	
-	public double closeness_stream(Node n, ArrayList<Node> nodes) {
+	public static double closeness_stream(Node n, ArrayList<Node> nodes) {
+		@SuppressWarnings("unchecked")
 		ArrayList<Node> documents = (ArrayList<Node>) nodes.clone();
 		
 		// Cas ou le document a etudier est dans la liste

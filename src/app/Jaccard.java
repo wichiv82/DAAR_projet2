@@ -98,6 +98,7 @@ public class Jaccard {
 	
 	
 	public static double closeness(String doc, ArrayList<String> files) {
+		@SuppressWarnings("unchecked")
 		ArrayList<String> documents = (ArrayList<String>) files.clone();
 		double denominateur = 0;
 		
@@ -116,6 +117,7 @@ public class Jaccard {
 	}
 	
 	public static double closeness_stream(String doc, ArrayList<String> files) {
+		@SuppressWarnings("unchecked")
 		ArrayList<String> documents = (ArrayList<String>) files.clone();
 		
 		// Cas ou le document a etudier est dans la liste
