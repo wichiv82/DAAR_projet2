@@ -1,0 +1,1954 @@
+The Project Gutenberg EBook of A Study Of American Beers and Ales, by 
+L.M. Tolman and J. Garfield Riley
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: A Study Of American Beers and Ales
+
+Author: L.M. Tolman
+        J. Garfield Riley
+
+Release Date: April 11, 2008 [EBook #25050]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK A STUDY OF AMERICAN BEERS AND ALES ***
+
+
+
+
+Produced by Bruce Thomas, Sigal Alon and the Online
+Distributed Proofreading Team at http://www.pgdp.net
+
+
+
+
+
+
+
+
+                 UNITED STATES DEPARTMENT OF AGRICULTURE
+
+                            BULLETIN No. 493
+
+                Contribution from the Bureau of Chemistry
+
+                         CARL L. ALSBERG, Chief
+
+        Washington, D. C.    PROFESSIONAL PAPER    March 21, 1917
+
+
+
+
+
+                   A STUDY OF AMERICAN BEERS AND ALES.
+
+By L. M. TOLMAN, Chief, Central Inspection District, and J. GARFIELD RILEY,
+  Assistant Chemist, Food and Drug Inspection Laboratory, New York, N. Y.
+
+
+                   *       *       *       *       *
+
+
+
+
+CONTENTS.
+
+                                                                     Page.
+
+Introduction                                                             1
+
+Method of undertaking the investigation                                  2
+
+Methods of analysis                                                      3
+
+Results of analysis                                                      3
+
+Effect of raw materials used upon composition of the finished brew      11
+
+Conclusions                                                             23
+
+                   *       *       *       *       *
+
+
+
+
+INTRODUCTION.
+
+
+The investigation, the results of which are reported in this bulletin,
+was undertaken for the purpose of securing information in regard to the
+composition of brewery products made in this country. The main object of
+this investigation was to find, if possible, a means of distinguishing
+beers and ales made entirely from malt from those made from malt
+together with other cereal products, such as rice, corn, and cerealin.
+
+It was concluded, after looking into the literature, that in order to
+accomplish this purpose it would be necessary to collect a series of
+samples made from the various raw materials ordinarily used and make a
+study of the effect of these raw materials upon the composition of the
+finished product.
+
+The investigation seemed desirable for the reason that practically all
+of the existing data related to foreign beers, in the preparation of
+which a type of malt was used entirely different from that ordinarily
+used in the production of American beers. Furthermore, very few of the
+existing data relating either to foreign or domestic beers were based
+upon samples concerning which exact information was available in regard
+to the raw materials used in the wort.
+
+
+METHOD OF UNDERTAKING THE INVESTIGATION.
+
+It was felt that it would be wholly unsatisfactory to make this
+investigation by means of laboratory brewings on a small scale, as the
+results thus obtained would not show the true conditions, because it is
+not possible in the laboratory to duplicate exactly the mashing or
+fermenting processes actually used in a commercial way. It was decided,
+therefore, to attempt, with the cooperation of several breweries, to
+make this study under the exact conditions prevailing in commercial
+plants. Access was secured to several breweries making different types
+of products from various kinds of raw materials, under such conditions
+that it was possible to obtain a complete history of the beer through
+its various stages to the finished product. One of the writers (Riley)
+watched the method of manufacture during its whole process and obtained
+samples of the product at the various stages of manufacture. Thus, it
+was possible to procure finished samples with practically the same
+degree of certainty, as regards knowledge of composition and history, as
+would have been the case had they been prepared in the laboratory.
+
+In three different breweries manufacturing a wide range of products
+samples of the wort and beer were obtained in this manner, the entire
+process of manufacture being studied in detail. A record showing the
+kind and amount of raw materials placed in the mash and in the cooker
+was made of the samples collected from these three breweries. A record
+also was kept of the time and temperature of each operation until the
+mash was ready to run into the kettle. The filtering and sparging[1] of
+the mash, the time of boiling in the kettle, the amount of hops added
+and the point at which they were added, and the break[2] of the wort
+were all noted. After the wort had been pumped from the kettle its
+course was followed through the hop jack[3] over the coolers to the
+settling tank. The specific gravity or Balling[4] of the original wort,
+the temperature at which the product was pitched,[5] the aeration of the
+wort, the kind and amount of yeast added, as well as the time and
+maximum temperature of the primary fermentation, also were noted. The
+course of the beer through the storage vats, chip casks, and filters to
+the racks was watched, and samples of the wort and of the beer in its
+various stages of production were collected and examined.
+
+[Footnote 1: Washing the grains with hot water to remove the extract or
+valuable constituents as completely as possible.]
+
+[Footnote 2: Precipitation and uniting, in the form of flakes, of the
+coagulable albuminoids, leaving the liquid clear.]
+
+[Footnote 3: A filtering tank.]
+
+[Footnote 4: Percentage of solids in the liquor according to the Balling
+hydrometer.]
+
+[Footnote 5: Pitching is the operation of adding the yeast to the wort.]
+
+
+METHODS OF ANALYSIS.
+
+The methods of analysis used were those given in Bulletin 107, revised
+(U. S. Dept. Agr., Bur. Chem.), pages 90-94, with the exception that the
+determination of phosphoric acid was made by the method used in
+fertilizer analysis (ibid., pp. 2-5), destroying the organic material in
+the beer by digestion with strong sulphuric acid and nitric acid and
+determining the phosphoric acid finally by the optional volumetric
+method (ibid., p. 4). The uranium acetate method given for beers was not
+used, for the reason that it was found to be exceedingly difficult to
+obtain accurate results on dark-colored beers.[1]
+
+[Footnote 1: Riley, in his report to the Association of Official
+Agricultural Chemists for the year 1913, stated that the method giving
+the most uniform results was that of ashing the beer with an excess of
+standard calcium acetate, and that while the moist combustion method in
+the hands of those familiar with it gave satisfactory results, the
+various collaborators working with the method did not get as uniform
+results as with the method of ashing with calcium acetate. J. Assoc.
+Off. Agr. Chemists 1 (1915), 138-143.]
+
+It was found in the estimation of dextrin by the Sachsse-Allihn method
+(ibid., p. 91) that there is an error in the method of calculation of
+the amount of dextrose formed from the amount of maltose in the original
+beer. Instead of multiplying the amount of maltose in the original beer
+by the factor 0.9, it should be multiplied by the factor 1.053, as 1
+gram of anhydrous maltose yields, on hydrolysis, 1.053 grams of
+dextrose. The product is the quantity which should be subtracted from
+the total amount of dextrose found after hydrolysis. The extract in the
+beer was determined by use of the tables of Schultz and Ostermann
+(ibid., pp. 209-213). The same methods were used in the analyses of the
+worts as were used in the examination of the beers.
+
+
+RESULTS OF ANALYSIS.
+
+Tables I to IV contain the results of the analyses of the worts and
+finished fermented products obtained at the various breweries where this
+investigation was conducted, arranged so as to show readily the changes
+which took place during fermentation and, in a few cases, the changes
+which took place during storage. The results are all given in terms of
+grams per 100 cc, so that a direct comparison of the quantities of any
+particular ingredient in a definite volume of material may be made. The
+comparison of the grams per 100 cc of an ingredient in the wort, with
+the grams per 100 cc in the finished fermented product, is based on the
+assumption that there is no appreciable change in the volume of the wort
+during fermentation.
+
+In Table I are given the results of the analyses of 7 malt worts and the
+beers produced from them. Table II contains the results of the analyses
+of 2 malt-and-rice worts and 2 malt-and-corn worts, and the beers
+produced from them. In Table III are given the results of the analyses
+of 4 porter worts and the finished porters produced from them. The
+results of the analyses of 9 ale worts and the finished ales are shown
+in Table IV. In these four tables the extract in the original wort has
+been calculated by multiplying the alcohol (expressed in terms of grams
+per 100 cc) by 2, and adding to the product the extract of the beer,
+porter, or ale (expressed in terms of grams per 100 cc). In the porter
+and ale worts a percentage of dextrose had been added as brewer's sugar.
+Since dextrose reduces more copper than does maltose in the
+determination of the sugars, in order to obtain the true percentage of
+total sugars it was necessary to calculate the amount of copper reduced
+by the known amount of dextrose present, and then to calculate the
+amount of maltose. The results thus obtained are given in Tables III and
+IV under the heading "Reducing sugars as anhydrous maltose."
+
+
+TABLE I.--_Analyses of all-malt worts and of the beers made from them._
+
+Column Key:
+A: Sample No.
+B: Product.
+C: Date of Taking Sample.
+D: Specific Gravity at 15.6°C./15.6°C.
+E: Alcohol.
+F: Extract.
+G: Extract in original wort (calculated).
+H: Degree of fermentation.
+I: Total acids as lactic.
+J: Volatile acids as acetic.
+K: Reducing sugars as anhydrous maltose.
+L: Dextrin.
+M: Protein (N × 6.25)
+N: Ash.
+O: Phosphoric acid (as P_{2}O_{5}).
+P: Undetermined.
+Q: Color (Lovibond) in 1/4-inch cell.
+
++--------+------+--------+-------+------+------+------+-----+------+
+|        |      |        |       |      |      |      |     |      |
+|   A    |  B   |   C    |  D    |  E   |   F  |   G  |  H  |   I  |
++--------+------+--------+-------+------+------+------+-----+------+
+|        |      |        |       | Grams| Grams| Grams|     | Grams|
+|        |      |        |       |  per |  per |  per |     |  per |
+|        |      |        |       |  100 |  100 |  100 |     |  100 |
+|        |      |  1911  |       |  cc. |  cc. |  cc. |     |  cc. |
+|22013-D | Wort |July 5  |1.0518 |  ... |13.75 |  ... | ... |0.198 |
+|22017-D | Beer |July 12 |1.0125 | 3.85 | 5.16 |12.86 |59.88| .216 |
+|        |      |        |       |      |      |      |     |      |
+|22014-D | Wort |July 6  |1.0517 |  ... |13.71 |  ... | ... | .198 |
+|22018-D | Beer |July 13 |1.0124 | 3.91 | 5.16 |12.98 |60.25| .225 |
+|        |      |        |       |      |      |      |     |      |
+|  ...   | Wort |July 7  |1.0517 |  ... |13.71 |  ... | ... | .207 |
+|22019-D | Beer |July 14 |1.0135 | 3.83 | 5.44 |13.10 |58.47| .234 |
+|        |      |        |       |      |      |      |     |      |
+|22015-D | Wort |July 8  |1.0517 |  ... |13.70 |  ... | ... | .198 |
+|22020-D | Beer |July 15 |1.0130 | 3.72 | 5.22 |12.66 |58.77| .236 |
+|        |      |        |       |      |      |      |     |      |
+|22016-D | Wort |July 10 |1.0515 |  ... |13.68 |  ... | ... | .225 |
+|22021-D | Beer |July 17 |1.0147 | 3.66 | 5.66 |12.98 |56.39| .221 |
+|        |      |        |       |      |      |      |     |      |
+|        |      |  1912  |       |      |      |      |     |      |
+|16289-C | Wort |Feb. 29 |1.0455 |  ... |12.05 |  ... | ... | .216 |
+|16289-C | Beer |Mar. 7  |1.0171 | 3.02 | 6.01 |12.11 |49.88| .230 |
+|20714-D |  Do  |Apr. 18 |1.0167 | 3.12 | 5.90 |12.14 |51.40| .243 |
+|        |      |        |       |      |      |      |     |      |
+|16299-C | Wort |Mar. 1  |1.0454 |  ... |12.02 |  ... | ... | .180 |
+|16299-C | Beer |Mar. 18 |1.0180 | 2.87 | 6.16 |11.94 |48.07| .234 |
++--------+------+--------+-------+------+------+------+-----+------+
+
++--------+------+------+------+------+------+------+------+----------+
+|        |      |      |      |      |      |      |      |          |
+|   A    |   J  |  K   |  L   |  M   |  N   |  O   |  P   |    Q     |
++--------+------+------+------+------+------+------+------+----------+
+|        | Grams| Grams| Grams| Grams| Grams| Grams| Grams| Degrees, |
+|        |  per |  per |  per |  per |  per |  per |  per | brewer's |
+|        |  100 |  100 |  100 |  100 |  100 |  100 |  100 | scale.   |
+|        |  cc. |  cc. |  cc. |  cc. |  cc. |  cc. |  cc. |          |
+|22013-D |0.001 | 9.79 |  ... |0.862 |0.231 |0.098 |  ... |  13.0    |
+|22017-D | .001 | 1.34 | 2.33 | .611 | .209 | .080 | 0.67 |  12.0    |
+|        |      |      |      |      |      |      |      |          |
+|22014-D | .001 | 9.79 |  ... | .876 | .228 | .095 |  ... |  13.0    |
+|22018-D | .002 | 1.36 | 2.06 | .614 | .201 | .078 |  .93 |  13.0    |
+|        |      |      |      |      |      |      |      |          |
+|  ...   | .001 |10.04 |  ... | .852 | .252 | .099 |  ... |  13.0    |
+|22019-D | .002 | 1.55 |  ... | .610 | .215 | .082 |  ... |   9.0    |
+|        |      |      |      |      |      |      |      |          |
+|22015-D | .001 | 9.86 |  ... | .841 | .240 | .097 |  ... |  13.0    |
+|22020-D | .002 | 1.59 | 2.23 | .639 | .206 | .081 |  .55 |  11.0    |
+|        |      |      |      |      |      |      |      |          |
+|22016-D | .001 | 9.84 |  ... | .845 | .245 | .097 |  ... |  13.0    |
+|22021-D | .001 | 1.85 | 2.18 | .635 | .208 | .082 |  .78 |  10.0    |
+|        |      |      |      |      |      |      |      |          |
+|        |      |      |      |      |      |      |      |          |
+|16289-C | .001 | 7.40 |  ... | .917 | .232 | .095 |  ... |   4.0    |
+|16289-C | .003 | 1.35 | 2.73 | .757 | .246 | .082 |  .83 |   3.0    |
+|20714-D | .012 | 1.47 | 2.68 | .732 | .229 | .090 |  .79 |   3.0    |
+|        |      |      |      |      |      |      |      |          |
+|16299-C | .001 | 7.41 |  ... | .874 | .238 | .101 |  ... |   2.0    |
+|16299-C | .012 | 1.40 | 2.82 | .737 | .240 | .090 |  .96 |   2.0    |
++--------+------+------+------+------+------+------+------+----------+
+
+
+TABLE II.--_Analyses of malt-and-rice and malt-and-corn worts and of the
+beers made from them._
+
+Column Key:
+A: Sample No.
+B: Raw Materials.
+C: Product.
+D: Date of taking Sample.
+E: Specific gravity at 15.6°C./15.6°C.
+F: Alcohol.
+G: Extract.
+H: Extract in original wort (calculated).
+I: Degree of fermentation.
+J: Total acids as lactic.
+K: Volatile acids as acetic.
+L: Reducing sugars as anhydrous maltose.
+M: Dextrin.
+N: Protein (N × 6.25)
+O: Ash.
+P: Phosphoric acid (as P_{2}O_{5}).
+Q: Undetermined.
+R: Color (Lovibond) in 1/4-inch cell.
+
++--------+----------------+------+--------+-------+------+------+------+-----+
+|        |                |      |        |       |      |      |      |     |
+|   A    |       B        |  C   |   D    |   E   |   F  |   G  |   H  |  I  |
++--------+----------------+------+--------+-------+------+------+------+-----+
+|        |                |      |        |       | Grams| Grams| Grams|     |
+|        |                |      |        |       |  per |  per |  per |     |
+|        |                |      |        |       |  100 |  100 |  100 |     |
+|        |                |      |  1911  |       |  cc. |  cc. |  cc. |     |
+|22026-D |80 per cent     |      |        |       |      |      |      |     |
+|        |  malt and 20   |      |        |       |      |      |      |     |
+|        |  per cent rice.| Wort |July 24 |1.0459 |  ... |12.15 |  ... | ... |
+|22032-D |    Do          | Beer |July 31 |1.0121 | 3.31 | 4.80 |11.42 |57.97|
+|22036-D |    Do          | Wort |Aug. 9  |1.0464 |  ... |12.30 |  ... | ... |
+|22042-D |    Do          | Beer |Aug. 16 |1.0139 | 3.18 | 5.23 |11.59 |54.87|
+|16269-C |60 per cent     |      |        |       |      |      |      |     |
+|        |  malt and 40   |      |        |       |      |      |      |     |
+|        |  per cent corn.| Wort |Dec. 5  |1.0489 |  ... |12.95 |  ... | ... |
+|16271-C |    Do          | Beer |Dec. 12 |1.0149 | 3.45 | 5.68 |12.58 |54.85|
+|        |                |      |        |       |      |      |      |     |
+|        |                |      |  1912  |       |      |      |      |     |
+|16287-C |    Do          | do   |Mar. 12 |1.0159 | 3.33 | 5.76 |12.42 |53.62|
+|        |                |      |        |       |      |      |      |     |
+|        |                |      |  1911  |       |      |      |      |     |
+|16270-C |    Do          | Wort |Dec. 6  |1.0496 |  ... |  ... |13.14 | ... |
+|16272-C |    Do          | Beer |Dec. 13 |1.0152 | 3.41 | 5.61 |12.43 |54.87|
+|        |                |      |        |       |      |      |      |     |
+|        |                |      |  1912  |       |      |      |      |     |
+|16286-C |    Do          | do   |Mar. 12 |1.0157 | 3.29 | 5.68 |12.26 |53.67|
++--------+----------------+------+--------+-------+------+------+------+-----+
+
++--------+------+------+------+------+------+------+------+------+----------+
+|        |      |      |      |      |      |      |      |      |          |
+|  A     |  J   |  K   |  L   |  M   |  N   |  O   |  P   |  Q   |  R       |
++--------+------+------+------+------+------+------+------+------+----------+
+|        | Grams| Grams| Grams| Grams| Grams| Grams| Grams| Grams| Degrees, |
+|        |  per |  per |  per |  per |  per |  per |  per |  per | brewer's |
+|        |  100 |  100 |  100 |  100 |  100 |  100 |  100 |  100 | scale.   |
+|        |  cc. |  cc. |  cc. |  cc. |  cc. |  cc. |  cc. |  cc. |          |
+|22026-D | 0.124|0.001 | 8.64 |  ... | .714 |0.193 |0.069 |  ... |   2.0    |
+|22032-D |  .275| .003 | 1.18 | 2.47 | .519 | .150 | .055 | 0.48 |   2.0    |
+|22036-D |  .126| .001 | 8.70 |  ... | .624 | .204 | .072 |  ... |   2.0    |
+|22042-D |  .243| .003 | 1.57 | 2.41 | .400 | .156 | .057 |  .69 |   2.0    |
+|16269-C |  .144| .003 | 9.05 |  ... | .461 | .229 | .066 |  ... |   ...    |
+|16271-C |  .171| .013 | 1.63 | 2.49 | .308 | .213 | .056 | 1.04 |   ...    |
+|16287-C |  .180| .014 | 1.87 | 2.36 | .327 | .208 | .056 |  .99 |   ...    |
+|16270-C |  .144| .003 | 9.32 |  ... | .498 | .216 | .067 |  ... |   ...    |
+|16272-C |  .171| .013 | 1.59 | 2.58 | .314 | .203 | .050 |  .93 |   ...    |
+|16286-C |  .175| .014 | 1.88 | 2.58 | .314 | .222 | .058 |  .69 |   ...    |
++--------+------+------+------+------+------+------+------+------+----------+
+
+
+TABLE III.--_Analyses of porter worts made from malt, cerealin, and
+brewer's sugar, and of the porters made from these worts._
+
+Key:
+A: Sample No.
+B: Product.
+C: Date of taking sample.
+D: Specific gravity at 15.6° C./15.6° C.
+E: Alcohol.
+F: Extract.
+G: Extract in original wort (calculated).
+H: Degree of fermentation.
+I: Total acids as lactic.
+J: Volatile acids as acetic.
+K: Reducing sugars as anhydrous maltose.
+L: Dextrin.
+M: Protein (N × 6.25)
+N: Ash.
+O: Phosphoric acid (as P_{2}O_{5}).
+P: Undetermined.
+Q: Color (Lovibond) in 1/4-inch cell.
+
++-------+-------+-------+------+------+------+------+-----+------+
+|       |       |       |      |      |      |      |     |      |
+|   A   |   B   |   C   |   D  |   E  |   F  |   G  |  H  |   I  |
++-------+-------+-------+------+------+------+------+-----+------+
+|       |       |       |      | Grams| Grams| Grams|     | Grams|
+|       |       |       |      |  per |  per |  per |     |  per |
+|       |       |       |      |  100 |  100 |  100 |     |  100 |
+|       |       | 1911  |      |  cc. |  cc. |  cc. |     |  cc. |
+|22023-D|Wort   |July 20|1.0572|  ... | 15.25|  ... | ... | 0.270|
+|22028-D|Porter |July 26|1.0151|  4.30|  6.02| 14.62|58.82|  .324|
+|22046-D|  do   |Aug. 21|1.0135|  4.48|  5.70| 14.66|61.12|  .380|
+|       |       |       |      |      |      |      |     |      |
+|22038-D|Wort   |Aug. 11|1.0625|  ... | 16.66|  ... | ... |  .234|
+|22044-D|Porter |Aug. 18|1.0165|  4.75|  6.60| 16.10|59.01|  .342|
+|       |       |       |      |      |      |      |     |      |
+|22045-D|Wort   |Aug. 18|1.0623|  ... | 16.62|  ... | ... |  .234|
+|29501-B|Porter |Aug. 25|1.0170|  4.72|  6.72| 16.16|58.42|  .288|
+|       |       |       |      |      |      |      |     |      |
+|22025-D|Wort   |July 21|1.0633|  ... | 16.87|  ... | ... |  .234|
+|22031-D|Porter |July 28|1.0178|  4.70|  6.96| 16.36|57.46|  .378|
+|22049-D|  do   |Aug. 24|1.0162|  4.82|  6.54| 16.18|59.58|  .306|
++-------+-------+-------+------+------+------+------+-----+------+
+
++------+------+------+------+------+------+------+------+--------+
+|      |      |      |      |      |      |      |      |        |
+|  A   |   J  |   K  |   L  |   M  |   N  |   O  |   P  |    Q   |
++------+------+------+------+------+------+------+------+--------+
+|      | Grams| Grams| Grams| Grams| Grams| Grams| Grams|        |
+|      |  per |  per |  per |  per |  per |  per |  per |Degrees,|
+|      |  100 |  100 |  100 |  100 |  100 |  100 |  100 |brewer's|
+|      |  cc. |  cc. |  cc. |  cc. |  cc. |  cc. |  cc. |scale.  |
+|2023-D| 0.002|  8.67|  ... | 0.696| 0.227| 0.069|  ... |  58.0  |
+|2028-D|  .003|  1.07|  3.34|  .482|  .208|  .052|  0.92|  59.0  |
+|2046-D|  .002|  1.07|  3.19|  .482|  .182|  .051|   .78|  60.0  |
+|      |      |      |      |      |      |      |      |        |
+|2038-D|  .002|  9.74|  ... |  .685|  .232|  .072|  ... |  65.0  |
+|2044-D|  .002|  1.42|  3.48|  .477|  .196|  .053|  1.02|  60.0  |
+|      |      |      |      |      |      |      |      |        |
+|2045-D|  .002|  9.68|  ... |  .667|  .224|  .069|  ... |  55.0  |
+|9501-B|  .002|  1.41|  3.62|  .482|  .201|  .058|  1.01|  55.0  |
+|      |      |      |      |      |      |      |      |        |
+|2025-D|  .004| 10.25|  ... |  .721|  .214|  .073|  ... |  70.0  |
+|2031-D|  .002|  1.40|  3.68|  .476|  .194|  .055|  1.21|  60.0  |
+|2049-D|  .003|  1.44|  3.44|  .479|  .189|  .053|   .99|  60.0  |
++------+------+------+------+------+------+------+------+--------+
+
+
+TABLE IV.--_Analyses of ale worts and of the ales made from them._
+
+KEY:
+A: Sample No.
+B: Raw materials.
+C: Product.
+D: Date of taking sample.
+E: Specific gravity at 15.6°C./15.6° C.
+F: Alcohol.
+G: Extract.
+H: Extract in original wort (calculated).
+I: Degree of fermentation.
+J: Total acids as lactic.
+K: Volatile acids as acetic.
+L: Reducing sugars as anhydrous maltose.
+M: Dextrin.
+N: Protein (N × 6.25).
+O: Ash.
+P: Phosphoric acid (as P_{2}O_{5}).
+Q: Undetermined
+R: Color (Lovibond) in 1/4-inch cell.
+
++-------+--------------------+---------+-------+------+-----+-----+-----+
+|       |                    |         |       |      |     |     |     |
+|   A   |         B          |    C    |   D   |  E   |  F  |  G  |  H  |
++-------+--------------------+---------+-------+------+-----+-----+-----+
+|       |                    |         |       |Grams |Grams|Grams|     |
+|       |                    |         |       | per  | per | per |     |
+|       |                    |         |       | 100  | 100 | 100 |     |
+|       |                    |         |  1911 | cc.  | cc. | cc. |     |
+|22024-D|Malt, cerealin, and |         |       |      |     |     |     |
+|       |  brewer's sugar    |Wort     |July 21|1.0608|  ...|16.24| ... |
+|22030-D|    do              |Ale      |July 27|1.0139| 4.82| 5.93|15.57|
+|22047-D|    do              |Ale after|       |      |     |     |     |
+|       |                    | storage.|Aug. 22|1.0124| 4.97| 5.62|15.56|
+|22034-D|    do              |Wort     |Aug. 7 |1.0610|  ...|16.30| ... |
+|22039-D|    do              |Ale      |Aug. 14|1.0123| 5.11| 5.67|15.89|
+|29504-B|    do              |Ale after|       |      |     |     |     |
+|       |                    | storage |Oct. 6 |1.0106| 5.26| 5.28|15.80|
+|22037-D|    do              |Wort     |Aug. 10|1.0611| ... |16.32| ... |
+|22043-D|    do              |Ale      |Aug. 17|1.0124| 4.93| 5.62|15.48|
+|22022-D|Malt and cerealin   |Wort     |July 19|1.0642| ... |17.10| ... |
+|22027-D|    do              |Ale      |July 26|1.0133| 5.17| 5.95|16.29|
+|22035-D|    do              |Wort     |Aug.  8|1.0668| ... |17.80| ... |
+|22040-D|    do              |Ale      |Aug. 15|1.0145| 5.34| 6.30|16.98|
+|16267-C|    do              |Ale after|       |      |     |     |     |
+|       |                    | storage |Nov. 15|1.0134| 5.52| 6.11|17.15|
+|29506-B|    do              |Wort     |Oct. 10|1.0760| ... |20.23| ... |
+|29512-B|    do              |Ale      |Oct. 17|1.0253| 5.43| 9.19|20.05|
+|       |                    |         |       |      |     |     |     |
+|       |                    |         |  1912 |      |     |     |     |
+|13922-D|    do              |Ale after|       |      |     |     |     |
+|       |                    | storage |Jan. 3 |1.0208| 5.80| 8.18|19.78|
+|       |                    |         |       |      |     |     |     |
+|       |                    |         |  1911.|      |     |     |     |
+|29507-B|    do              |Wort     |Oct. 11|1.0767| ... |20.40| ... |
+|29514-B|    do              |Ale      |Oct. 18|1.0228| 5.67| 8.52|19.86|
+|29513-B|    do              |Wort     |Oct. 18|1.0781| ... |20.75| ... |
+|29519-B|    do              |Ale      |Oct. 24|1.0244| 5.53| 9.00|20.06|
+|       |                    |         |  1912 |      |     |     |     |
+|13923-D|    do              |Ale after|       |      |     |     |     |
+|       |                    | storage | Jan. 2|1.0210| 5.67| 8.18|19.52|
+|       |                    |         |       |      |     |     |     |
+|       |                    |         |  1911 |      |     |     |     |
+|22050-D|    do              |Wort     |Aug. 23|1.0793| ... |21.05| ... |
+|29503-B|    do              |Stout    |Aug. 30|1.0242| 5.69| 9.02|20.40|
++-------+--------------------+---------+-------+------+-----+-----+-----+
+
++-------+-----+-----+-----+-----+-----+-----+-----+-----+-----+--------+
+|       |     |     |     |     |     |     |     |     |     |        |
+|   A   |  I  |  J  |  K  |  L  |  M  |  N  |  O  |  P  |  Q  |   R    |
++-------+-----+-----+-----+-----+-----+-----+-----+-----+-----+--------+
+|       |Grams|Grams|Grams|Grams|Grams|Grams|Grams|Grams|Grams|        |
+|       | per | per | per | per | per | per | per | per | per |Degrees,|
+|       | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 |brewer's|
+|       | cc. | cc. | cc. | cc. | cc. | cc. | cc. | cc. | cc. |scale.  |
+|22024-D| ... |0.153|0.001|10.00| ... |0.788|0.230|0.059| ... |   4.0  |
+|       |     |     |     |     |     |     |     |     |     |        |
+|22030-D|61.91| .225| .003| 1.16| 3.23| .425| .194| .039| 0.92|   5.0  |
+|22047-D|63.88| .270| .003| 1.43| 2.69| .441| .180| .038|  .88|   5.0  |
+|       |     |     |     |     |     |     |     |     |     |        |
+|22034-D| ... | .153| .003|10.24|  ...| .771| .214| .060| ... |  5.0   |
+|22039-D|64.32| .225| .003| 1.26| 2.85| .471| .186| .043|  .90|   5.0  |
+|29504-B|66.58| .225| .003| 1.10| 2.60| .462| .189| .041|  .93|   5.0  |
+|       |     |     |     |     |     |     |     |     |     |        |
+|22037-D| ... | .149| .002|10.60| ... | .763| .209| .057| ... |   4.0  |
+|22043-D|63.69| .216| .003| 1.40| 2.82| .441| .172| .043|  .79|   4.0  |
+|22022-D| ... | .180| .002|10.19| ... | .776| .212| .072| ... |   3.0  |
+|22027-D|63.47| .207| .004| 1.25| 3.28| .500| .192| .055|  .73|   3.0  |
+|22035-D| ... | .189| .002|10.99| ... | .776| .212| .072| ... |   3.0  |
+|22040-D|62.90| .293| .004| 1.42| 3.31| .541| .192| .051|  .84|   4.0  |
+|16267-C|64.37| .234| .004| 1.65| 2.76| .506| .213| .053|  .98|   3.0  |
+|       |     |     |     |     |     |     |     |     |     |        |
+|29506-B| ... | .198| .001|11.19| 6.81| .959| .294| .077|  .98|   3.0  |
+|29512-B|54.16| .369| .008| 2.69| 4.39| .671| .273| .058| 1.17|   3.0  |
+|       |     |     |     |     |     |     |     |     |     |        |
+|       |     |     |     |     |     |     |     |     |     |        |
+|13922-D|58.64| .360| .008| 2.54| 3.42| .622| .275| .057| 1.32|   4.0  |
+|       |     |     |     |     |     |     |     |     |     |        |
+|       |     |     |     |     |     |     |     |     |     |        |
+|       |     |     |     |     |     |     |     |     |     |        |
+|29507-B| ... | .198| .001|12.14| 5.59| .965| .282| .078| 1.42|   3.0  |
+|29514-B|57.10| .360| .005| 2.51| 4.08| .664| .256| .057| 1.01|   2.0  |
+|29513-B|  ...| .198| .002|11.73| 5.95| .936| .300| .075| 1.83|   2.0  |
+|29519-B|55.13| .281| .006| 2.62| 4.31| .671| .255| .057| 1.14|   2.0  |
+|       |     |     |     |     |     |     |     |     |     |        |
+|13923-D|58.09| .360| .013| 2.54| 3.61| .603| .282| .064| 1.15|   4.0  |
+|       |     |     |     |     |     |     |     |     |     |        |
+|       |     |     |     |     |     |     |     |     |     |        |
+|       |     |     |     |     |     |     |     |     |     |        |
+|22050-D| ... | .270| .003|11.41| 6.34| .864| .326| .091| 2.11|  75.0  |
+|29503-B|55.78| .558| .003| 2.03| 4.54| .735| .286| .071| 1.42|  69.0  |
++-------+-----+-----+-----+-----+-----+-----+-----+-----+-----+--------+
+
+
+A study of these tables shows very clearly that during fermentation
+marked changes are brought about other than the mere conversion of sugar
+into alcohol. While it is well known that these changes take place it
+seems worth while to consider them here, because no similar study
+relating to American brewery products has been published. Further since
+we have the exact analysis of the wort and of the beer which was made
+from it, we have a special opportunity to examine quantitatively some of
+these changes, such as the production of alcohol, the fermentation of
+dextrin, the development of acids, and the losses of protein, ash, and
+phosphoric acid during fermentation.
+
+In order to study the question of the yield of alcohol, to test the
+present factor used for the calculation of the solids in the original
+wort, and to show the approximate amount of dextrin, calculations were
+made, the results of which are presented in Table V.
+
+
+TABLE V.--_Changes taking place in the conversion of worts into beers and
+ales._
+
++------------------------------+-------+-------+--------+--------+----------+
+|                              |       |       |        |Loss in |Difference|
+|                              |Loss in|Loss in|        | solids |between   |
+|           Product.           |solids.|sugar. |Alcohol.|divided |loss in   |
+|                              |       |       |        |   by   |solids    |
+|                              |       |       |        |alcohol.|and loss  |
+|                              |       |       |        |        |in sugar. |
++------------------------------+-------+-------+--------+--------+----------+
+|                              | Grams | Grams |  Grams |  Grams |  Grams   |
+|                              |  per  |  per  |   per  |   per  |   per    |
+|                              |  100  |  100  |   100  |   100  |   100    |
+|                              |  cc.  |  cc.  |   cc.  |   cc.  |   cc.    |
++------------------------------+-------+-------+--------+--------+----------+
+|Beer (all-malt)               |  8.59 |  8.45 |  3.85  |  2.23  |   0.14   |
+|    Do                        |  8.55 |  8.43 |  3.91  |  2.18  |    .12   |
+|    Do                        |  8.27 |  8.49 |  3.83  |  2.13  |    .22   |
+|    Do                        |  8.48 |  8.27 |  3.72  |  2.27  |    .21   |
+|    Do                        |  8.02 |  7.99 |  3.66  |  2.19  |    .03   |
+|Beer (60 per cent malt and    |       |       |        |        |          |
+|  40 per cent corn)           |  7.27 |  7.42 |  3.45  |  2.10  |    .15   |
+|    Do                        |  7.53 |  7.73 |  3.33  |  2.00  |    .20   |
+|Beer (80 per cent malt and    |       |       |        |        |          |
+|  20 per cent rice)           |  7.35 |  7.46 |  3.31  |  2.22  |    .11   |
+|    Do                        |  7.07 |  7.13 |  3.18  |  2.22  |    .06   |
+|Beer (all-malt)               |  6.04 |  6.05 |  3.02  |  2.00  |    .01   |
+|    Do                        |  5.86 |  6.01 |  2.87  |  2.04  |    .15   |
+|                              |-------+-------+--------+--------+----------+
+|Average for beers             |       |       |        |  2.14  |    .04   |
+|                              |=======+=======+========+========+==========+
+|Porter (small)                |  9.23 |  7.60 |  4.30  |  2.14  |   1.63   |
+|Porter (large)                |  9.91 |  8.32 |  4.70  |  2.10  |   1.59   |
+|    Do                        | 10.06 |  8.27 |  4.75  |  2.11  |   1.79   |
+|    Do                        |  9.90 |  7.82 |  4.72  |  2.09  |   2.08   |
+|Ale                           | 10.31 |  8.84 |  4.82  |  2.13  |   1.47   |
+|    Do                        | 10.63 |  8.98 |  5.11  |  2.08  |   1.65   |
+|    Do                        | 10.70 |  9.20 |  4.93  |  2.17  |   1.50   |
+|    Do                        | 11.15 |  8.94 |  5.16  |  2.15  |   2.21   |
+|    Do                        | 11.50 |  9.57 |  5.34  |  2.15  |   1.93   |
+|    Do                        | 11.62 |  9.06 |  5.35  |  2.17  |   2.56   |
+|Pale ale                      | 11.04 |  9.50 |  5.43  |  2.03  |   1.54   |
+|    Do                        | 11.88 |  9.63 |  5.67  |  2.09  |   2.25   |
+|    Do                        | 11.75 |  9.11 |  5.53  |  2.12  |   2.64   |
+|Brown stout                   | 12.03 |  9.38 |  5.69  |  2.11  |   2.65   |
+|                              |-------+-------+--------+--------+----------+
+|    Average for ales          |       |       |        |  2.12  |   1.96   |
+|    Average for beers and ales|       |       |        |  2.13  |          |
++------------------------------+-------+-------+--------+--------+----------+
+
+
+In Table V have been collected results (calculated from Tables I-IV)
+which show the loss in solids between the wort and the finished
+fermented product, the loss in sugar, the yield of alcohol, the loss in
+solids divided by the alcohol, and the difference between the loss in
+solids and the loss in sugar. By dividing alcohol into loss in solids
+there was secured a factor which makes possible the estimation of the
+solids in the original wort, provided that alcohol and extract are
+known. This factor also shows the yield of alcohol for a given amount of
+solids disappearing during fermentation. It has been found in the case
+of the beers that this factor averages 2.14, while in the case of the
+ales it averages 2.12, making an average for all of the products of
+2.13. This clearly shows that in the yield of alcohol for a given amount
+of fermentable solids there is no appreciable difference between top
+fermentation products, such as ales, and bottom fermentation products,
+such as beers.
+
+A marked difference in loss in solids is shown, however, when we compare
+the beers with the ales. In the case of the beers we find there is
+practically no difference between the loss in solids and the loss in
+sugar, while in the case of the porters and ales there is a very
+appreciable difference. The difference between the loss in solids and
+the loss in sugar is only 0.04 per cent for all of the beers; while in
+the case of the porters and ales the difference varies from 1.47 per
+cent to 2.65 per cent, with an average of 1.96 per cent. These figures
+clearly show that in the case of the porters and ales there has been
+some material other than sugar fermented. Unfortunately, the
+determination of dextrin was not made in all of the worts, so that the
+actual decrease in dextrin can be shown only in a few cases. But in
+those cases where we have the actual results the difference between loss
+in solids and the loss in sugar compares very closely with the actual
+amount of dextrin disappearing during fermentation.
+
+
+DEVELOPMENT OF ACIDS DURING FERMENTATION.
+
+A comparison of the amounts of volatile and fixed acids in the worts and
+in the finished beers shows that normally there is no appreciable
+development of volatile acid during fermentation and only a slight
+increase in the fixed acid. This increase in fixed acid averages in the
+case of the beers 0.049 per cent, while in the case of the ales the
+increase averages 0.103 per cent.
+
+
+DECREASE IN PROTEIN, ASH, AND PHOSPHORIC ACID.
+
+A general study of the preceding tables will show that there is an
+appreciable loss of protein, ash, and phosphoric acid during the
+fermentation. Table VI has been prepared to show the average loss during
+fermentation of the various classes of worts with respect to their
+protein, ash, and phosphoric acid contents.
+
+
+TABLE VI.--_Average loss during fermentation._
+
++---------------------------+----------+----------+-----------+
+|                           | Protein. |   Ash.   |Phosphoric |
+|       Kind of wort.       |          |          |   acid.   |
++---------------------------+----------+----------+-----------+
+|                           | Grams per| Grams per| Grams per |
+|                           |  100 cc. |  100 cc. |  100 cc.  |
++---------------------------+----------+----------+-----------+
+|Beer worts (all-malt)      |  0.209   |  0.017   |  0.015    |
+|Beer worts (malt and rice) |   .210   |   .045   |   .014    |
+|Beer worts (malt and corn) |   .168   |   .014   |   .013    |
+|Porter worts               |   .213   |   .031   |   .017    |
+|Ale worts                  |   .275   |   .029   |   .019    |
++---------------------------+----------+----------+-----------+
+
+
+The results given in Table VI show a great similarity in the changes in
+all of the products, as there is about the same amount of loss of
+protein, ash, and phosphoric acid in the beer, ale, and porter worts.
+There does not appear to be any appreciable loss, however, of either
+protein or phosphoric acid during the storage or aging period as is
+shown by the few samples which we have analyzed after storage. This is
+practically in agreement with the experiment of Bertschinger,[1] whose
+results show only a very slight increase in alcohol and loss of sugar
+during the storage period.
+
+[Footnote 1: Z. angew. Chem. (1890), p. 670.]
+
+
+EFFECT OF RAW MATERIALS USED UPON COMPOSITION OF THE FINISHED BREW.
+
+In order to show the effects on the finished beers or ales of the use of
+corn, rice, cerealin, and brewer's sugar as substitutes for malt in the
+worts, Table VII has been prepared, giving the results of analyses of a
+number of brews made in different breweries and from varying kinds and
+amounts of raw materials.
+
+
+TABLE VII.--_Analyses of beers and ales from various breweries._
+
+Column Headings:
+A: Sample No.
+B: Raw materials.
+C: Product.
+D: Alcohol.
+E: Extract (Schultz and Ostermann).
+F: Extract in original wort (calculated).
+G: Degree of fermentation.
+H: Total acid as lactic.
+I: Volatile acid as acetic.
+J: Reducing sugars as anhydrous maltose.
+K: Dextrin.
+L: Protein (N × 6.25).
+M: Ash.
+N: Phosphoric acid (as P_{2}O_{5}.)
+O: Undetermined.
+P: Polarimeter.
+Q: Color (Lovibond) in 1/4-inch cell.
+R: Calculated to basis of wort with 15 per cent solids.
+S: Protein (N × 6.25).
+T: Ash.
+U: Phosphoric acid (as P_{2}O_{5}.)
+
++-------+----------------------+----+-----+-----+-----+-----+-----+-----+
+|       |                      |    |     |     |     |     |     |     |
+|       |                      |    |     |     |     |     |     |     |
+|   A   |         B            |  C |  D  |  E  |  F  |  G  |  H  |  I  |
++-------+----------------------+----+-----+-----+-----+-----+-----+-----+
+|       |                      |    |P.ct.|     |     |     |     |     |
+|       |                      |    | by  |     |     |     |     |     |
+|       |   Brewery No. 1.     |    |wght.|P.ct.|P.ct.|     |P.ct.|P.ct.|
+|14004-H|Malt                  |Beer| 3.07| 5.55|11.69|52.54|0.223|0.013|
+|14005-H|65 per cent malt and  |    |     |     |     |     |     |     |
+|       |  35 per cent cerealin| do | 2.42| 6.19|11.03|43.88| .142| .013|
+|14006-H|60 per cent malt and  |    |     |     |     |     |     |     |
+|       |  40 per cent corn    | do | 2.16| 5.28| 9.60|45.00| .178| .007|
+|       |   Brewery No. 2.     |    |     |     |     |     |     |     |
+|22017-D|Malt                  |Beer| 3.83| 5.06|12.72|60.22| .214| .001|
+|22018-D|    do                | do | 3.90| 5.06|12.86|60.65| .223| .002|
+|22020-D|    do                | do | 3.69| 5.12|12.50|59.04| .234| .002|
+|22021-D|    do                | do | 3.63| 5.54|12.80|56.72| .219| .001|
+|22042-D|80 per cent malt and  |    |     |     |     |     |     |     |
+|       |  20 per cent rice    | do | 3.16| 5.13|11.45|55.20| .241| .003|
+|       |   Brewery No. 3.     |    |     |     |     |     |     |     |
+|29517-B|80 per cent malt and  |    |     |     |     |     |     |     |
+|       |  20 per cent cerealin|Ale | 6.33| 6.77|19.43|65.15| .357| .005|
+|22027-D|78 per cent malt and  |    |     |     |     |     |     |     |
+|       |  22 per cent cerealin| do | 5.14| 5.82|16.10|63.85| .205| .004|
+|22040-D|    do                | do | 5.31| 6.17|16.79|63.25| .291| .004|
+|22048-D|    do                | do | 5.33| 6.15|16.81|63.42| .232| .002|
+|29512-B|75 per cent malt and  |    |     |     |     |     |     |     |
+|       |  25 per cent cerealin| do | 5.32| 8.88|19.52|54.51| .366| .008|
+|29514-B|    do                | do | 5.43| 8.25|19.11|56.83| .357| .005|
+|29519-B|    do                | do | 5.43| 8.70|19.56|55.52| .278| .006|
+|22030-D|65 per cent malt, 28  |    |     |     |     |     |     |     |
+|       |  per cent cerealin,  |    |     |     |     |     |     |     |
+|       |  and 7 per cent      |    |     |     |     |     |     |     |
+|       |  brewer's sugar      | do | 4.79| 5.80|15.38|62.29| .223| .003|
+|22039-D|    do                | do | 5.10| 5.55|15.75|64.64| .223| .003|
+|22043-D|    do                | do | 4.91| 5.50|15.32|63.27| .214| .003|
++-------+----------------------+----+-----+-----+-----+-----+-----+-----+
+
++-------+-----+-----+-----+-----+-----+-----+-----+-----+-----------------+
+|       |     |     |     |     |     |     |     |     |        R        |
+|       |     |     |     |     |     |     |     |     |-----+-----+-----+
+|   A   |  J  |  K  |  L  |  M  |  N  |  O  |  P  |  Q  |  S  |  T  |  U  |
++-------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+|       |     |     |     |     |     |     |     |     |     |     |     |
+|       |     |     |     |     |     |     |Degs.|Degs.|     |     |     |
+|       |P.ct.|P.ct.|P.ct.|P.ct.|P.ct.|P.ct.| V.  | [1] |P.ct.|P.ct.|P.ct.|
+|14004-H| 1.59| 2.64|0.615|0.207|0.072| 0.49|+58.0|   5 |0.789|0.266|0.092|
+|14005-H|     |     |     |     |     |     |     |     |     |     |     |
+|       | 1.81| 3.15| .355| .141| .042|  .73|+50.8|   3 | .483| .192| .057|
+|14006-H|     |     |     |     |     |     |     |     |     |     |     |
+|       | 1.52| 2.96| .260| .124| .039|  .42|+44.0|   4 | .407| .194| .061|
+|       |     |     |     |     |     |     |     |     |     |     |     |
+|22017-D| 1.32| 2.30| .603| .206| .079|  .63| ... |  12 | .712| .243| .093|
+|22018-D| 1.34| 2.03| .606| .199| .077|  .88| ... |  13 | .701| .230| .090|
+|22020-D| 1.57| 2.20| .630| .203| .080|  .52| ... |  11 | .756| .244| .096|
+|22021-D| 1.82| 2.15| .626| .205| .081|  .74| ... |  10 | .734| .240| .095|
+|22042-D|     |     |     |     |     |     |     |     |     |     |     |
+|       | 1.55| 2.48| .395| .154| .056|  .55|+37.2|   2 | .517| .202| .073|
+|       |     |     |     |     |     |     |     |     |     |     |     |
+|29517-B|     |     |     |     |     |     |     |     |     |     |     |
+|       | 1.42| 3.26| .622| .279| .066|  .75|+40.4| ... | .480| .215| .051|
+|22027-D|     |     |     |     |     |     |     |     |     |     |     |
+|       | 1.23| 3.27| .488| .189| .054|  .64|+41.2|   3 | .455| .176| .050|
+|22040-D| 1.40| 3.29| .533| .189| .050|  .76|+38.6|   4 | .476| .169| .045|
+|22048-D| 1.51| 3.29| .563| .203| .045|  .58|+40.4|   4 | .502| .181| .040|
+|29512-B|     |     |     |     |     |     |     |     |     |     |     |
+|       | 2.62| 4.28| .650| .266| .057| 1.06|+65.2|   3 | .499| .204| .044|
+|29514-B| 2.45| 3.99| .650| .250| .056|  .91|+59.8|   2 | .509| .196| .044|
+|29519-B| 2.56| 4.21| .655| .249| .056| 1.02|+64.0|   2 | .502| .191| .043|
+|22030-D|     |     |     |     |     |     |     |     |     |     |     |
+|       |     |     |     |     |     |     |     |     |     |     |     |
+|       |     |     |     |     |     |     |     |     |     |     |     |
+|       | 1.14| 3.20| .419| .190| .038|  .85|+40.0|   5 | .409| .185| .037|
+|22039-D| 1.24| 2.84| .465| .184| .042|  .37|+37.6|   5 | .443| .175| .040|
+|22043-D| 1.38| 2.81| .436| .170| .042|  .70|+38.0|   4 | .427| .166| .041|
++-------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+
+[Footnote 1: Brewer's scale.]
+
+
+In the results given under brewery No. 1, a beer made entirely from malt
+is compared with a beer made from 65 per cent of malt and 35 per cent of
+cerealin, and with a beer made from 60 per cent of malt and 40 per cent
+of corn, in all of which the same quality of malt was used.
+
+In the case of brewery No. 2, a beer made entirely from malt and a beer
+made from 80 per cent of malt and 20 per cent of rice are given, in both
+of which the same quality of malt was used.
+
+Under brewery No. 3 are given determinations for ales prepared from 80
+per cent of malt and 20 per cent of cerealin; 78 per cent of malt and 22
+per cent of cerealin; 75 per cent of malt and 25 per cent of cerealin;
+and 65 per cent of malt, 28 per cent of cerealin, and 7 per cent of
+brewer's sugar. The same quality of malt was used in all of these brews,
+but the brews were of different strengths.
+
+Table VII is given practically in two parts, the first part showing the
+actual results obtained by the analysis of the finished beer or ale and
+the second part showing protein, ash, and phosphoric acid calculated to
+the basis of a uniform wort containing 15 per cent of solids.
+
+Taking into consideration the actual results obtained upon the beers and
+ales, it will be seen in the case of brewery No. 1 that the three beers
+vary in composition to a considerable degree. Especially is this
+variation marked in regard to the protein, ash, and phosphoric acid
+contents, which exhibit a marked decrease approximately in direct
+proportion to the amount of cerealin or corn substituted for malt. The
+same condition is apparent in the case of the products made in brewery
+No. 2, the beer made from 80 per cent of malt and 20 per cent of rice
+showing a material reduction in protein, ash, and phosphoric acid. In
+brewery No. 3, however, a somewhat different condition is noted.
+Unfortunately, there is no all-malt product of this brewery to compare
+with the brews made from a portion of cerealin or from cerealin and
+brewer's sugar. It will be noted, however, that when the actual results
+obtained on the finished products of this brewery are compared with
+those of the all-malt brews of breweries Nos. 1 and 2, they do not
+clearly show a reduction of protein and ash as might be expected. For
+example, in the case of one of the samples of the ale made with 25 per
+cent of cerealin and 75 per cent of malt (sample No. 29512-B), the
+percentage of protein is 0.65 and of the ash 0.266. The percentages of
+protein and ash for the three samples of this ale represented by Nos.
+29512-B, 29514-B, and 29519-B are higher than were found in any of the
+all-malt products of the first two breweries under consideration. This,
+however, can be readily explained when it is considered that in the case
+of brewery No. 2 in the all-malt beers (sample No. 22017-D) only 58
+pounds of malt were used in the preparation of a barrel of beer
+containing 31 gallons; while in the case of sample No. 29512-B there
+were used, in preparing a barrel of similar capacity, 68 pounds of malt
+and 23 pounds of cerealin. That is, in the second product there is, in
+the same volume of liquid, the extractive material from 68 pounds of
+malt and 23 pounds of cerealin, while in the first product there is
+present the extractive material from only 58 pounds of malt. Since the
+analysis is made upon the finished liquid it is evident that the
+percentage composition of any particular ingredient should be very much
+larger in the second product because of the very much larger amount of
+material used in its preparation. It is apparent, therefore, that no
+direct comparison can be made between the percentage composition of
+these different brews in order to determine the effects of the raw
+materials upon their composition.
+
+The most satisfactory way to have tested this question of the effect of
+raw materials on the finished product would have been to make a series
+of worts with exactly the same percentage of solids, some of pure malt
+and others of mixtures of pure malt and corn, rice, and cerealin; then a
+direct comparison between the results would have shown the effects of
+these various materials. This method was impracticable because it was
+necessary to take the brews as actually made under varying commercial
+conditions. The object sought can be accomplished, however, by
+calculating the results of these analyses either to the basis of dry
+material in the original wort or by calculating them to the basis of a
+wort with constant water content. It was decided to calculate all of the
+results to the basis of a wort containing 15 per cent of solids, as this
+would give a uniform basis for comparison and would be approximately an
+average wort. The method employed in calculating the various beers and
+ales to this uniform basis was as follows:
+
+The percentage of solids in the original wort was calculated by
+multiplying the percentage by weight of alcohol by 2 and adding the
+percentage by weight of extract. The result for an ordinary beer would
+be about 12 per cent, while in the case of a very heavy ale it might be
+as high as 18 or 20 per cent. The actual percentages of protein, ash,
+and phosphoric acid found by analysis were then calculated to the basis
+of a uniform wort containing 15 per cent of solids. This was the method
+used for preparing the second part of this table. A study of this
+portion of the table shows the actual effects of the various substitutes
+used for malt on the composition of the fermented product. For instance,
+the first of the all-malt beers from brewery No. 2 (22017-D) showed in
+the analysis of the original product a protein percentage of 0.603, an
+ash percentage of 0.206, and a phosphoric acid percentage of 0.079. When
+calculated to the basis of a wort containing 15 per cent of solids
+instead of 12.72 per cent (the actual percentage of solids in the wort
+from which it was made), it gave the following percentages: Protein,
+0.712; ash, 0.243; and phosphoric acid, 0.093. In the case of brewery
+No. 3, sample No. 29512-B, where the original analysis of the product
+showed 0.650 per cent of protein, 0.266 of ash, and 0.057 of phosphoric
+acid, it will be found that when this product is calculated to the basis
+of a wort of 15 per cent of solids instead of a wort of 19.52 (the
+actual percentage of solids in the wort in this case) the percentage of
+ash is 0.204, of protein 0.499, and of phosphoric acid 0.044. A
+comparison of these results shows that in the protein, ash, and
+phosphoric acid there has been a material reduction below the figures
+found upon the all-malt beer, due to the presence of the 25 per cent of
+cerealin. A study of these results, calculated to the basis of 15 per
+cent of solids in the wort, shows very clearly that the general effect
+of the substitution of cerealin, brewer's sugar, rice, and corn is to
+reduce the content of ash, protein, and phosphoric acid.
+
+It is evident from the results here given that the most important things
+to be considered in judging the nature of the raw materials used in the
+preparation of a beer are the quantities of protein, phosphoric acid,
+and ash; as the other constituents present in the finished beer are more
+or less variable, the quantities present depending upon the methods of
+mashing and fermentation.
+
+Table VIII contains a summary of results giving the ash, protein, and
+phosphoric acid in all of the finished products of known composition
+which were examined, calculated to the basis of a uniform wort of 15 per
+cent of solids.
+
+
+TABLE VIII.--_Summary of the results of analyses (showing ash, protein,
+and phosphoric acid determinations) in all finished products of known
+composition, calculated to the basis of a uniform wort containing 15 per
+cent of solids._
+
++-----------------------------+----------+-----+-----------+------------+
+|Raw materials.               |Products. |Ash. | Protein   |    Phos-   |
+|                             |          |     |(N × 6.25).|   phoric   |
+|                             |          |     |           |  Acid (as  |
+|                             |          |     |           |P_{2}O_{5}).|
++-----------------------------+----------+-----+-----------+------------+
+|Malt                         |Beers: 21 |Per  |   Per     |   Per      |
+|                             |  samples |cent.|   cent.   |   cent.    |
+|                             |  Maximum |0.336|   1.079   |   0.143    |
+|                             |  Minimum | .230|    .701   |    .087    |
+|                             |  Average | .275|    .870   |    .109    |
++-----------------------------+----------+=====+===========+============+
+|                             |          |     |           |            |
+|80 per cent malt             |          |     |           |            |
+|  and 20 per cent rice       |Beer      | .202|    .517   |    .073    |
+|66 per cent malt             |          |     |           |            |
+|  and 34 per cent rice       |  do      | .198|    .555   |    .084    |
+|62 per cent malt             |          |     |           |            |
+|  and 38 per cent rice       |  do      | .205|    .488   |    .061    |
+|55 per cent malt             |          |     |           |            |
+|  and 45 per cent rice       |  do      | .148|    .380   |    .077    |
+|50 per cent malt             |          |     |           |            |
+|  and 50 per cent rice       |  do      | .167|    .351   |    .056    |
+|                             +----------+-----+-----------+------------+
+|                             |  Maximum | .205|    .555   |    .084    |
+|                             +----------+=====+===========+============+
+|70 per cent malt             |          |     |           |            |
+|  and 30 per cent corn       |Beer      | .199|    .343   |    .057    |
+|    Do                       |  do      | .188|    .367   |    .065    |
+|68 per cent malt             |          |     |           |            |
+|  and 32 per cent corn       |  do      | .150|    .461   |    .057    |
+|    Do                       |  do      | .181|    .466   |    .062    |
+|    Do                       |  do      | .164|    .459   |    .056    |
+|60 per cent malt             |          |     |           |            |
+|  and 40 per cent corn       |  do      | .215|    .563   |    .074    |
+|    Do                       |  do      | .188|    .593   |    .076    |
+|    Do                       |  do      | .223|    .597   |    .074    |
+|45 per cent malt             |          |     |           |            |
+|  and 55 per cent corn       |  do      | .145|    .347   |    .057    |
+|                             +----------+-----+-----------+------------+
+|                             |  Maximum | .223|    .597   |    .076    |
+|                             +----------+=====+===========+============+
+|65 per cent malt             |          |     |           |            |
+|  and 35 per cent cerealin   |Beer      | .192|    .483   |    .057    |
+|80 per cent malt             |          |     |           |            |
+|  and 20 per cent cerealin   |Ale       | .215|    .480   |    .051    |
+|78 per cent malt             |          |     |           |            |
+|  and 22 per cent cerealin   |  do      | .176|    .455   |    .050    |
+|    Do                       |  do      | .169|    .476   |    .045    |
+|    Do                       |  do      | .181|    .502   |    .040    |
+|75 per cent malt             |          |     |           |            |
+|  and 25 per cent cerealin   |  do      | .204|    .499   |    .044    |
+|    Do                       |  do      | .196|    .509   |    .044    |
+|    Do                       |  do      | .191|    .502   |    .043    |
+|65 per cent malt,            |          |     |           |            |
+|  7 per cent brewer's sugar, |          |     |           |            |
+|  and 28 per cent cerealin   |  do      | .185|    .409   |    .037    |
+|    Do                       |  do      | .175|    .443   |    .040    |
+|    Do                       |  do      | .166|    .427   |    .041    |
++-----------------------------+----------+-----+-----------+------------+
+|                             |  Maximum | .213|    .509   |    .051    |
++-----------------------------+----------+-----+-----------+------------+
+
+
+A study of the results given in Table VIII shows that in the case of
+American beers the all-malt beers are higher in ash, protein, and
+phosphoric acid than are any of the beers made from a mixed mash of malt
+and other cereals. The difference is sufficiently marked to make it
+possible to draw a rather sharp line between the all-malt beers and the
+beers made from the present commercial mixtures. Take, for instance, the
+beers made from mixtures of malt and rice in which the proportion of
+rice varies from 20 to 50 per cent. It will be seen that in none of
+these samples is the ash, phosphoric acid, or protein so high as the
+minimum found in the all-malt beers. The same will be seen in the case
+of the malt-and-corn beers. In none of the malt-and-corn beers is the
+ash, protein, or phosphoric acid so high as the minimum found in the
+all-malt beers, and the same is true of the mixtures of malt and
+cerealin and of malt, brewer's sugar, and cerealin. This shows clearly
+that the commercial beers made in this country from malt and malt
+substitutes can be distinguished readily from all-malt beers.
+
+When the average composition of the 21 all-malt beers examined is taken
+into consideration it will be seen that there is a very sharp line of
+demarcation between the all-malt and the malt, rice, and corn products.
+From the figures which were obtained upon American beers it would seem
+that protein as a rule is more sharply reduced by the addition of malt
+substitutes than is the ash or the phosphoric acid, although where corn
+or cerealin is used there is a very marked reduction in the amount of
+phosphoric acid. It would appear, therefore, from the results of this
+investigation that in the consideration of American beers it will be
+comparatively easy to draw a line between beers made solely from malt
+and those made from mixtures of malt with rice, corn, and other
+substitutes.
+
+This conclusion is not entirely in agreement with the results which have
+been obtained by others upon foreign beers, in the preparation of which
+low protein barleys have been used. Joseph Race[1] has reported some
+interesting results of an investigation carried on for the same purpose
+as that for which this particular investigation was undertaken; that is,
+to distinguish between all-malt beers and those made from substitutes.
+His results do not show as sharp a reduction of the protein, but he
+found in his all-malt beers a very much lower percentage of total
+protein than was found in the malt beers of this country. He did
+observe, however, a material reduction of the phosphoric acid due to the
+use of substitutes. Unfortunately, he made his determination of
+phosphoric acid in the ash, and while he reports a marked difference
+between the phosphoric acid content of the malt beers and those made
+from substitutes, his total figures for phosphoric acid are much lower
+than those reported in this bulletin. For this reason the figures for
+total phosphoric acid given by him are not at all comparable with those
+determined by the moist combustion method, by the uranium acetate
+method, or by the method of ashing with calcium acetate.[2]
+
+[Footnote 1: J. Soc. Chem. Ind., 27 (1908), 544-547.]
+
+[Footnote 2: Riley, in his report to the Association of Official
+Agricultural Chemists for the year 1913, showed that a large proportion
+of the phosphoric acid was ordinarily lost when the beer was directly
+ashed (J. Assoc. Off. Agr. Chemists, 1 (1915), 138-143). For this
+reason, in comparing the amount of phosphoric acid given in the
+literature on beers, it is very essential to know the method used for
+determining the phosphoric acid.]
+
+
+The same fact observed by Race, namely, that foreign beers are of low
+protein content, is shown very clearly in the published literature on
+European beers in general. König[3] gives the following results of
+analyses made by himself and H. Weigmann of two all-malt beers,
+calculated to the basis of a wort containing 15 per cont of solids:
+
++-----------------------------+-----------+-----------+-----------+
+|Beer and percentage of wort. |  Protein. |    Ash.   |Phosphoric |
+|                             |           |           |   acid.   |
++-----------------------------+-----------+-----------+-----------+
+|                             | Per cent. | Per cent. | Per cent. |
+|Pure malt beer:              |           |           |           |
+|   12 percent wort           |   0.548   |   0.259   |   0.098   |
+|   14 percent wort           |    .457   |    .214   |    .076   |
++-----------------------------+-----------+-----------+-----------+
+
+
+From these results of König it will be seen that the protein content of
+these beers is considerably less than that of the beers examined by the
+writers. As the phosphoric acid and ash results, however, are
+practically the same as in American beers, it might be expected that the
+use of substitutes in place of the low-protein malt would not show so
+sharp a reduction of the protein as was found by the authors, although
+one would expect a reduction in phosphoric acid and ash similar to that
+found in American beers. This is confirmed by the results obtained by
+Race.
+
+Robert Wahl[4] made parallel brewings of a high-protein barley and a
+low-protein barley, and from these obtained two beers which, when
+calculated to a uniform wort with 15 per cent of solids, showed a total
+protein in the beer made from the low-protein malt of 0.734 per cent,
+and in the beer made from the high-protein malt 1.041 per cent. This
+clearly indicates that where a beer is made from high-protein barley, as
+is the case with practically all of the beers made in this country,[5]
+the reduction in protein by the use of substitutes will be a valuable
+index to the true nature of the product. This, when taken in connection
+with the reduction of phosphoric acid brought about by the use of
+substitutes, gives two factors of value in judging American beers, to
+determine whether or not substitutes have been used; while in the case
+of beers made from low-protein barley there is practically only one
+factor, namely, the reduction of phosphoric acid.
+
+[Footnote 3: König, F. J., Chemie der Menschlichen Nahrungs- und Genussmittel,
+4th ed., v. 1, p. 1154. Berlin, 1903.]
+
+[Footnote 4: Am. Brewers' Rev., 18 (1904), 339.]
+
+[Footnote 5: Wahl, Robert. _In_ Am. Brewers' Rev., 29 (1915), 316-317.]
+
+
+After this rather extensive study had been made at the three breweries,
+the investigation was extended to include breweries in various sections
+of the country where different types of raw materials were used. A
+special effort was made to obtain authentic samples of practically all
+of the malt beers made in this country and also a large series of
+malt-and-rice and malt-and-corn beers. In Table IX have been tabulated
+the results obtained on all-malt beers. All of these results show
+practically the same condition noted in the other samples of malt beer;
+that is, a comparatively high protein and phosphoric acid content as
+compared with beers made in part from rice or corn. These malt beers
+show figures considerably higher in protein than those given in the
+literature for all-malt beers made from the low-protein malt of Europe.
+
+
+TABLE IX.--_Analyses of all-malt American beers._
+
+Column Headings:
+
+A: Sample No.
+B: Alcohol.
+C: Extract (Schultz and Ostermann).
+D: Extract in original wort (calculated).
+E: Degree of fermentation.
+F: Total acid as lactic.
+G: Volatile acid as acetic.
+H: Reducing sugars as anhydrous maltose.
+I: Dextrin.
+J: Protein (N × 6.25).
+K: Ash.
+L: Phosphoric acid (as P_{2}O_{5}).
+M: Undetermined.
+N: Polarimeter.
+O: Color (Lovibond) in 1/4-inch cell.
+P: Calculated to basis of wort with 15 per cent of solids.
+Q: Protein (N × 6.25).
+R: Ash.
+S: Phosphoric acid (as P_{2}O_{5}).
+
++-------+------+-----+-----+-----+-----+-----+-----+-----+-----+
+|       |      |     |     |     |     |     |     |     |     |
+|       |      |     |     |     |     |     |     |     |     |
+|   A   |  B   |  C  |  D  |  E  |  F  |  G  |  H  |  I  |  J  |
++-------+------+-----+-----+-----+-----+-----+-----+-----+-----+
+|       |  Per |     |     |     |     |     |     |     |     |
+|       | cent.|     |     |     |     |     |     |     |     |
+|       |  by  | Per | Per |     | Per | Per | Per | Per | Per |
+|       |weight|cent.|cent.|     |cent.|cent.|cent.|cent.|cent.|
+|22017-D| 3.83 | 5.06|12.72|60.22|0.214|0.001| 1.32| 2.30|0.603|
+|22018-D| 3.90 | 5.06|12.86|60.65| .223| .002| 1.34| 2.03| .606|
+|22020-D| 3.69 | 5.12|12.50|59.04| .234| .002| 1.57| 2.20| .630|
+|22021-D| 3.63 | 5.54|12.80|56.72| .219| .001| 1.82| 2.15| .626|
+|16289-C| 3.00 | 5.88|11.88|50.50| .228| .003| 1.33| 2.68| .752|
+|16299-C| 2.84 | 6.02|11.70|48.55| .232| .012| 1.38| 2.77| .724|
+|20714-D| 3.07 | 5.80|11.94|51.42| .241| .012| 1.45| 2.64| .721|
+|20715-D| 2.95 | 5.77|11.67|50.56| .228| .009| 1.43| 2.67| .725|
+|23571-E| 3.68 | 4.44|11.80|62.45| .232| .010| 1.06| 1.67| .653|
+|23585-E| 3.60 | 5.04|12.24|58.82| .277| .005| 1.36| 1.81| .811|
+|23528-E| 3.28 | 6.36|12.92|50.80| .384| .016| 1.62| 2.74| .905|
+|23533-E| 3.41 | 5.48|12.30|55.45| .232| .008| 1.48| 2.44| .612|
+|23537-E| 3.80 | 7.26|14.86|51.35| .250| .012| 2.51| 2.95| .802|
+|23588-E| 3.16 | 6.11|12.43|50.84| .250| .008| 1.93| 2.41| .797|
+|23538-E| 3.13 | 6.61|12.77|48.24| .250| .009| 2.13| 2.82| .612|
+|23589-E| 3.35 | 6.21|12.91|51.90| .178| .017| 1.78| 2.87| .627|
+|23539-E| 3.22 | 6.63|13.27|48.53| .312| .017| 2.18| 2.58| .778|
+|23540-E| 3.93 | 6.77|14.63|53.73| .348| .007| 2.64| 1.87|1.010|
+|23590-E| 3.48 | 5.45|12.41|56.09| .375| .010| 2.21| 1.48| .892|
+|23541-E| 3.12 | 5.06|11.30|55.22| .259| .004| 1.69| 1.27| .777|
+|14004-H| 3.07 | 5.55|11.69|52.54| .223| .013| 1.59| 2.64| .615|
++-------+------+-----+-----+-----+-----+-----+-----+-----+-----+
+
++-------+-----+-----+-----+-------+-------+-----------------+
+|       |     |     |     |       |       |        P        |
+|       |     |     |     |       |       |-----+-----+-----+
+|   A   |  K  |  L  |  M  |   N   |   O   |  Q  |  R  |  S  |
++-------+-----+-----+-----+-------+-------+-----+-----+-----+
+|       |     |     |     |       |       |     |     |     |
+|       |     |     |     |       |       |     |     |     |
+|       | Per | Per | Per |Degrees|Degrees| Per | Per | Per |
+|       |cent.|cent.|cent.|   V.  |  [1]  |cent.|cent.|cent.|
+|22017-D|0.206|0.079| 0.63|  ...  |   12  |0.712|0.243|0.093|
+|22018-D| .199| .077|  .88|  ...  |   13  | .701| .230| .090|
+|22020-D| .203| .080|  .52|  ...  |   11  | .756| .244| .096|
+|22021-D| .205| .081|  .74|  ...  |   10  | .734| .240| .095|
+|16289-C| .242| .081|  .88| +36.8 |  ...  | .950| .306| .102|
+|16299-C| .237| .088|  .91| +40.0 |  ...  | .932| .304| .113|
+|20714-D| .225| .089|  .76| +36.4 |    3  | .906| .283| .112|
+|20715-D| .213| .088|  .73| +36.0 |    4  | .932| .274| .113|
+|23571-E| .229| .096|  .83| +21.6 |  ...  | .830| .291| .122|
+|23585-E| .257| .102|  .80| +23.2 |    6  | .994| .315| .124|
+|23528-E| .239| .123|  .86| +37.2 |   13  |1.051| .277| .143|
+|23533-E| .200| .086|  .75| +33.6 |    3  | .747| .244| .105|
+|23537-E| .228| .098|  .77| +44.0 |   14  | .809| .230| .099|
+|23588-E| .208| .086|  .76| +37.2 |    4  | .952| .251| .104|
+|23538-E| .225| .087|  .82| +43.6 |    9  | .719| .264| .102|
+|23589-E| .204| .075|  .73| +40.0 |    7  | .729| .237| .087|
+|23539-E| .248| .097|  .84| +38.8 |   22  | .879| .280| .109|
+|23540-E| .324| .129|  .93| +34.0 |   18  |1.035| .332| .132|
+|23590-E| .264| .109|  .60| +25.6 |    7  |1.079| .319| .132|
+|23541-E| .253| .087| 1.07| +20.0 |    4  |1.031| .336| .115|
+|14004-H| .207| .072|  .49|  ...  |    5  | .789| .266| .092|
++-------+-----+-----+-----+-------+-------+-----+-----+-----+
+
+[Footnote 1: Brewer's scale.]
+
+
+In Tables X and XI are given the results for beers made from malt and
+rice and from malt and corn. A study of these tables shows the same
+condition as was noted in the other tables giving malt-and-rice and
+malt-and-corn beers; that is, the beers have a lower protein and
+phosphoric acid content than those made entirely from malt.
+
+
+TABLE X.--_Analyses of malt-and-rice American beers._
+
+Column Headings:
+A: Sample No.
+B: Raw materials.
+C: Alcohol.
+D: Extract (Schultz and Ostermann).
+E: Extract in original wort (calculated).
+F: Degree of fermentation.
+G: Total acid as lactic.
+H: Volatile acid as acetic.
+I: Reducing sugars as anhydrous maltose.
+J: Dextrin.
+K: Protein (N × 6.25).
+L: Ash.
+M: Phosphoric acid (as P_{2}O_{5}).
+N: Undetermined.
+O: Polarimeter.
+P: Color (Lovibond) in 1/4-inch cell.
+Q: Calculated to basis of wort with 15 per cent of solids.
+R: Protein (N × 6.25).
+S: Ash.
+T: Phosphoric acid (as P_{2}O_{5}).
+
++-------+--------------------+------+-----+-----+-----+-----+-----+-----+-----+
+|   A   |          B         |  C   |  D  |  E  |  F  |  G  |  H  |  I  |  J  |
++-------+--------------------+------+-----+-----+-----+-----+-----+-----+-----+
+|       |                    |  Per |     |     |     |     |     |     |     |
+|       |                    |ct. by| Per | Per | Per | Per | Per | Per | Per |
+|       |                    |weight| ct. | ct. | ct. | ct. | ct. | ct. | ct. |
+|22042-D|80 per cent malt and|      |     |     |     |     |     |     |     |
+|       |  20 per cent rice  | 3.16 | 5.13|11.45|55.20|0.241|0.003| 1.55| 2.41|
+|23527-E|66 per cent malt and|      |     |     |     |     |     |     |     |
+|       |  34 per cent rice  | 3.32 | 5.50|12.14|54.70| .196| .008| 1.46| 2.74|
+|23581-E|62 per cent malt and|      |     |     |     |     |     |     |     |
+|       |  38 per cent rice  | 2.86 | 6.16|11.88|48.16| .178| .014| 1.77| 3.15|
+|23587-E|55 per cent malt and|      |     |     |     |     |     |     |     |
+|       |  45 per cent rice  | 3.56 | 4.96|12.08|58.94| .151| .007| 1.24| 2.53|
+|23586-E|50 per cent malt and|      |     |     |     |     |     |     |     |
+|       |  50 per cent rice  | 3.44 | 5.67|12.55|54.82| .160| .008| 1.44| 3.08|
++=============================================================================+
+|       |               |     |     |     |     |     |     |        Q        |
+|       |               |     |     |     |     |     |     +-----+-----+-----+
+|   A   |        B      |  K  |  L  |  M  |  N  |  O  |  P  |  R  |  S  |  T  |
++-------+---------------+-----+-----+-----+-----+-----+-----+-----|-----+-----+
+|       |               |     |     |     |     | De- | De- |     |     |     |
+|       |               | Per | Per | Per | Per |grees|grees| Per | Per | Per |
+|       |               | ct. | ct. | ct. | ct. |  V. | [1] | ct. | ct. | ct. |
+|22042-D|80 per cent    |     |     |     |     |     |     |     |     |     |
+|       |  malt and 20  |     |     |     |     |     |     |     |     |     |
+|       |  per cent rice|0.395|0.154|0.056| 0.62|+37.2|   2 |0.517|0.202|0.073|
+|23527-E|66 per cent    |     |     |     |     |     |     |     |     |     |
+|       |  malt and 34  |     |     |     |     |     |     |     |     |     |
+|       |  per cent rice| .449| .160| .068|  .69|+40.0|   2 | .555| .198| .084|
+|23581-E|62 per cent    |     |     |     |     |     |     |     |     |     |
+|       |  malt and 38  |     |     |     |     |     |     |     |     |     |
+|       |  per cent rice| .386| .162| .048|  .69|+48.6| ... | .488| .205| .061|
+|23587-E|55 per cent    |     |     |     |     |     |     |     |     |     |
+|       |  malt and 45  |     |     |     |     |     |     |     |     |     |
+|       |  per cent ric | .306| .119| .062|  .76|+37.0|   2 | .380| .148| .077|
+|23586-E|50 per cent    |     |     |     |     |     |     |     |     |     |
+|       |  malt and 50  |     |     |     |     |     |     |     |     |     |
+|       |  per cent rice| .294| .140| .047|  .72|+46.4|   2 | .351| .167| .056|
++-------+---------------+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+
+[Footnote 1: Brewer's scale.]
+
+
+TABLE XI.--_Analyses of malt-and-corn American beers._
+
+Column Headings:
+A: Sample No.
+B: Raw materials.
+C: Alcohol.
+D: Extract (Schultz and Ostermann).
+E: Extract in original wort (calculated).
+F: Degree of fermentation.
+G: Total acid as lactic.
+H: Volatile acid as acetic.
+I: Reducing sugars as anhydrous maltose.
+J: Dextrin.
+K: Protein (N × 6.25).
+L: Ash.
+M: Phosphoric acid (as P_{2}O_{5}).
+N: Undetermined.
+O: Polarimeter.
+P: Color (Lovibond) in 1/4-inch cell.
+Q: Calculated to basis of wort with 15 per cent of solids.
+R: Protein (N × 6.25).
+S: Ash.
+T: Phosphoric acid (as P_{2}O_{5}).
+
++-------+--------------------+------+-----+-----+-----+-----+-----+-----+-----+
+|   A   |          B         |  C   |  D  |  E  |  F  |  G  |  H  |  I  |  J  |
++-------+--------------------+------+-----+-----+-----+-----+-----+-----+-----+
+|       |                    |  Per |     |     |     |     |     |     |     |
+|       |                    |ct. by| Per | Per | Per | Per | Per | Per | Per |
+|       |                    |weight| ct. | ct. | ct. | ct. | ct. | ct. | ct. |
+|23534-E|70 per cent malt and|      |     |     |     |     |     |     |     |
+|       |  30 per cent corn  | 2.75 | 5.53|11.03|50.32|0.125|0.005| 1.27| 3.13|
+|       |                    |      |     |     |     |     |     |     |     |
+|23535-E|    do              | 3.03 | 4.85|10.91|55.55| .224| .011| 1.15| 2.76|
+|23518-E|68 per cent malt and|      |     |     |     |     |     |     |     |
+|       |  32 per cent corn  | 3.37 | 5.96|12.70|53.07| .116| .006| 1.63| 3.07|
+|23561-E|    do              | 3.26 | 6.14|12.66|51.50| .134| .016| 1.54| 3.07|
+|23572-E|    do              | 3.37 | 6.07|12.81|52.62| .143| .020| 1.56| 3.29|
+|23584-E|60 per cent malt and|      |     |     |     |     |     |     |     |
+|       |  40 per cent corn  | 3.09 | 4.90|11.08|55.78| .178| .020| 1.35| 2.43|
+|23523-E|    do              | 3.16 | 6.07|12.39|51.01| .214| .009| 1.60| 3.36|
+|23660-E|    do              | 3.26 | 6.07|12.59|51.79| .205| .009| 1.55| 3.06|
+|16286-C|    do              | 3.19 | 5.60|11.98|53.34| .173| .014| 1.85| 2.61|
+|16287-C|    do              | 3.23 | 5.67|12.13|53.26| .178| .014| 1.84| 2.41|
+|23524-E|45 per cent malt and|      |     |     |     |     |     |     |     |
+|       |  55 per cent corn  | 3.43 | 5.75|12.61|54.40| .169| .007| 1.44| 3.19|
++==============================================================================
+|       |               |     |     |     |     |     |     |        Q        |
+|       |               |     |     |     |     |     |     |-----+-----+-----+
+|   A   |        B      |  K  |  L  |  M  |  N  |  O  |  P  |  R  |  S  |  T  |
++-------+---------------+-----+-----+-----+-----+-----+-----+-----|-----+-----+
+|       |               |     |     |     |     | De- | De- |     |     |     |
+|       |               | Per | Per | Per | Per |grees|grees| Per | Per | Per |
+|       |               | ct. | ct. | ct. | ct. |  V. | [1] | ct. | ct. | ct. |
+|23534-E|70 per cent    |     |     |     |     |     |     |     |     |     |
+|       |  malt and 30  |     |     |     |     |     |     |     |     |     |
+|       |  per cent corn|0.252|0.146|0.042| 0.73|+42.6|   2 |0.343|0.199|0.057|
+|23535-E|    do         | .267| .137| .047|  .53|+37.2|   2 | .367| .188| .065|
+|23518-E|68 per cent    |     |     |     |     |     |     |     |     |     |
+|       |  malt and 32  |     |     |     |     |     |     |     |     |     |
+|       |  per cent corn| .390| .127| .048|  .74|+49.6|   3 | .461| .150| .057|
+|23561-E|    do         | .393| .153| .052|  .98|+48.0| ... | .466| .181| .062|
+|23572-E|    do         | .392| .140| .048|  .69|+47.0| ... | .459| .164| .056|
+|23584-E|60 per cent    |     |     |     |     |     |     |     |     |     |
+|       |  malt and 40  |     |     |     |     |     |     |     |     |     |
+|       |  per cent corn| .416| .159| .055|  .54|+34.6| ... | .563| .215| .074|
+|23523-E|    do         | .490| .155| .064|  .46|+45.0|   5 | .593| .188| .076|
+|23660-E|    do         | .501| .187| .062|  .77|+44.4|   5 | .597| .223| .074|
+|16286-C|    do         | .311| .219| .057|  .61|+41.0| ... | .389| .274| .071|
+|16287-C|    do         | .322| .205| .055|  .89|+41.0| ... | .398| .254| .068|
+|23524-E|45 per cent    |     |     |     |     |     |     |     |     |     |
+|       |  malt and 55  |     |     |     |     |     |     |     |     |     |
+|       |  per cent corn| .292| .122| .048|  .71|+45.6|   2 | .347| .145| .057|
++-------+---------------+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+
+[Footnote 1: Brewer's scale.]
+
+
+In Table XII have been brought together the results of the examination
+of a large number of commercial beers of American production, which were
+represented to be made from malt and hops. This representation
+subsequently proved to be false, although exact information as to the
+amount or kind of substitute used is not available. These results are of
+value, however, in showing the general composition of American beers
+made from the ordinary commercial mixtures and clearly indicate that by
+taking into consideration the ash, protein, and phosphoric acid content
+it is practicable to distinguish commercial beers made in this country
+from malt and malt substitutes from beers made from malt alone.
+
+
+TABLE XII.--_Analyses of American beers incorrectly represented to be
+all-malt._
+
+Column Headings:
+A: Sample No.
+B: Alcohol.
+C: Extract (Schultz and Ostermann).
+D: Extract in original wort (calculated).
+E: Degree of fermentation.
+F: Total acid as lactic.
+G: Volatile acid as acetic.
+H: Reducing sugars as anhydrous maltose.
+I: Dextrin.
+J: Protein (N × 6.25).
+K: Ash.
+L: Phosphoric acid (as P_{2}O_{5}).
+M: Undetermined.
+N: Polarimeter.
+O: Color (Lovibond) in 1/4-inch cell.
+P: Calculated to basis of wort with 15 per cent of solids.
+Q: Protein (N × 6.25).
+R: Ash.
+S: Phosphoric acid (as P_{2}O_{5}).
+
++-------+------+-----+-----+-----+-----+-----+-----+-----+-----+
+|       |      |     |     |     |     |     |     |     |     |
+|       |      |     |     |     |     |     |     |     |     |
+|   A   |  B   |  C  |  D  |  E  |  F  |  G  |  H  |  I  |  J  |
++-------+------+-----+-----+-----+-----+-----+-----+-----+-----+
+|       |  Per |     |     |     |     |     |     |     |     |
+|       | cent.|     |     |     |     |     |     |     |     |
+|       |  by  | Per | Per |     | Per | Per | Per | Per | Per |
+|       |weight|cent.|cent.|     |cent.|cent.|cent.|cent.|cent.|
+| 2417-E| 3.67 | 4.66|12.00|61.33|0.154|0.013| 1.59| 1.97|0.341|
+|36612-E| 3.10 | 7.55|13.75|45.09| .232| .017| 2.33| 3.93| .274|
+| 1146-E| 4.23 | 7.35|15.81|53.51| .241| .029| 2.21| 3.39| .472|
+| 3014-E| 3.26 | 6.74|13.26|49.17| .167| .014| 2.74| 2.56| .406|
+| 2538-E| 2.86 | 6.69|12.41|46.09| .214| .017| 3.22| 2.12| .390|
+| 1734-E| 3.55 | 6.55|13.65|52.02| .250| .028| 1.87| 3.58| .303|
+| 1154-E| 3.55 | 5.62|12.72|55.82| .187| .014| 1.88| 2.52| .352|
+| 1006-E| 3.58 | 4.74|11.90|60.17| .138| .017| 1.42| 1.99| .420|
+|  195-E| 3.56 | 4.21|11.33|62.84| .127| .008| 2.72|  .77| .254|
+| 5022-E| 2.95 | 5.60|11.50|51.30| .133| .022| 2.30| 2.20| .233|
+| 1005-E| 2.69 | 5.33|10.71|50.24| .102| .010| 1.77| 2.34| .354|
+|  194-E| 3.18 | 4.00|10.36|61.39| .062| .017| 1.37| 1.58| .296|
+|  185-E| 3.44 | 3.92|10.80|63.70| .141| .011| 2.06|  .97| .250|
+| 5314-E| 3.78 | 5.65|13.21|57.15| .151| .010| 1.46| 2.84| .416|
+| 4451-E| 3.23 | 6.52|12.98|49.77| .228| .009| 2.80| 2.44| .519|
+| 5696-E| 4.19 | 6.44|14.82|56.55| .268| .012| 2.15| 3.06| .309|
+| 3359-E| 4.96 | 7.43|17.35|57.18| .321| .019| 1.76| 3.74| .509|
+| 3358-E| 3.23 | 5.53|11.99|53.83| .121| .009| 1.88| 2.51| .314|
+|  481-E| 3.87 | 5.20|12.94|59.82| .147| .014| 1.32| 2.47| .319|
+|  687-E| 3.24 | 4.71|11.19|57.91| .080| .009| 1.63| 2.20| .284|
+|  193-E| 3.66 | 5.75|13.07|56.01| .148| .017| 1.78| 2.67| .346|
+| 5023-E| 3.16 | 5.30|11.62|54.39| .128| .005| 1.95| 2.13| .214|
+| 5318-E| 3.57 | 5.20|12.34|57.86| .220| .003| 1.50| 2.59| .320|
+| 6715-E| 3.75 | 7.98|15.48|48.45| .174| .006| 2.55| 3.60| .430|
+| 6716-E| 3.66 | 7.73|15.05|48.64| .187| .009| 2.37| 3.84| .384|
+| 2388-E| 2.95 | 5.35|11.25|52.45| .080| .012| 1.64| 2.32| .337|
+| 2352-E| 3.20 | 4.69|11.09|57.71| .147| .011| 1.99| 1.76| .326|
+| 2770-E| 3.66 | 5.99|13.31|55.00| .169| .019| 1.82| 2.56| .276|
+| 8705-E| 2.91 | 5.62|11.44|50.96| .147| .017| 1.86| 2.58| .366|
+| 8706-E| 3.48 | 4.93|11.89|58.54| .214| .022| 1.83| 1.83| .470|
+| 8704-E| 2.76 | 4.98|10.50|52.57| .160| .010| 1.62| 2.26| .390|
+| 7839-E| 3.51 | 5.38|12.40|56.61| .142| .012| 1.57| 2.77| .290|
+| 5707-E| 3.35 | 5.82|12.52|53.51| .160| .011| 2.01| 2.65| .352|
+| 8171-F| 3.50 | 5.99|12.99|53.85| .169| .013| 1.92| 2.67| .271|
+|  397-E| 3.73 | 6.71|14.17|52.65| .169| .007| 1.56| 3.96| .324|
++-------+------+-----+-----+-----+-----+-----+-----+-----+-----+
+
++-------+-----+-----+-----+-------+-------+-----------------+
+|       |     |     |     |       |       |        P        |
+|       |     |     |     |       |       |-----+-----+-----+
+|   A   |  K  |  L  |  M  |   N   |   O   |  Q  |  R  |  S  |
++-------+-----+-----+-----+-------+-------+-----+-----+-----+
+|       |     |     |     |       |       |     |     |     |
+|       |     |     |     |       |       |     |     |     |
+|       | Per | Per | Per |Degrees|Degrees| Per | Per | Per |
+|       |cent.|cent.|cent.|   V.  |  [1]  |cent.|cent.|cent.|
+| 2417-E|0.120|0.053| 0.64| +31.0 |    1  |0.426|0.150|0.066|
+|36612-E| .149| .043|  .87| +54.4 |   35  | .299| .163| .047|
+| 1146-E| .202| .074| 1.08| +50.0 |   32  | .448| .192| .070|
+| 3014-E| .147| .060|  .89| +49.6 |    3  | .459| .166| .068|
+| 2538-E| .181| .050|  .78| +43.2 |   54  | .472| .219| .060|
+| 1734-E| .145| .048|  .65| +53.0 |    3  | .333| .159| .053|
+| 1154-E| .158| .043|  .71| +41.0 |    3  | .415| .186| .051|
+| 1006-E| .158| .057|  .75| +31.2 |   12  | .529| .199| .072|
+|  195-E| .127| .044|  .34| +22.6 |    3  | .336| .168| .058|
+| 5022-E| .121| .036|  .75| +41.0 |    3  | .304| .158| .047|
+| 1005-E| .132| .048|  .74| +39.6 |    3  | .496| .185| .067|
+|  194-E| .110| .045|  .64| +27.0 |    5  | .423| .159| .065|
+|  185-E| .116| .041|  .52| +23.2 |    3  | .347| .161| .057|
+| 5314-E| .177| .059|  .76| +40.8 |    3  | .472| .201| .067|
+| 4451-E| .153| .054|  .61|  ...  |   78  | .599| .177| .062|
+| 5696-E| .197| .082|  .72| +44.0 |   18  | .313| .199| .083|
+| 3359-E| .294| .074| 1.13| +48.4 |   44  | .440| .254| .064|
+| 3358-E| .175| .045|  .65| +41.0 |    3  | .392| .219| .056|
+|  481-E| .163| .054|  .93| +36.6 |    2  | .370| .189| .063|
+|  687-E| .124| .048|  .47| +35.6 |    2  | .382| .167| .065|
+|  193-E| .153| .048|  .80| +42.8 |    3  | .397| .176| .055|
+| 5023-E| .126| .033|  .88| +40.0 |    2  | .276| .163| .043|
+| 5318-E| .147| .045|  .64| +41.8 |    3  | .389| .179| .055|
+| 6715-E| .186| .058| 1.21| +61.6 |   14  | .417| .180| .056|
+| 6716-E| .164| .055|  .97| +61.6 |   14  | .383| .164| .055|
+| 2388-E| .135| .042|  .91| +40.4 |    2  | .449| .180| .056|
+| 2352-E| .146| .037|  .46| +32.2 |    3  | .441| .198| .050|
+| 2770-E| .194| .050| 1.14| +45.2 |    6  | .311| .219| .056|
+| 8705-E| .150| .041|  .66| +41.0 |  ...  | .480| .197| .053|
+| 8706-E| .160| .062|  .64| +30.4 |  ...  | .593| .202| .078|
+| 8704-E| .150| .054|  .56| +36.4 |  ...  | .557| .214| .077|
+| 7839-E| .116| .031|  .63| +41.2 |  ...  | .351| .140| .038|
+| 5707-E| .147| .048|  .66| +43.0 |  ...  | .422| .176| .058|
+| 8171-F| .178| .054|  .95| +45.2 |  ...  | .313| .205| .062|
+|  397-E| .151| .051|  .72| +55.2 |    2  | .343| .160| .054|
++-------+-----+-----+-----+-------+-------+-----+-----+-----+
+
+[Footnote 1: Brewer's scale.]
+
+
+The data reported in Tables X, XI, and XII give the results of analyses
+of commercial American beers obtained from various breweries in
+different parts of the United States as these beers are found on the
+market at the present time; hence, they are of general value for the
+purpose of showing the composition of American beers. These data also
+are of considerable interest when we compare them with data relating to
+American beers published by the department in 1887.[1] A comparison of
+these two sets of figures shows that beers made at the present time have
+a much lower percentage of alcohol and are made from a wort containing a
+much lower percentage of solids than beers made a generation ago. The
+average of 28 samples examined and reported in 1887 in the publication
+cited[1] showed an average alcohol content of 4.63 per cent by weight
+and solids in the original wort of 14.79 per cent, while the average of
+72 beers representing the products now on the market showed an average
+of 3.52 per cent by weight of alcohol and solids in the original wort of
+12.50 per cent. This is a reduction of 1.11 per cent by weight of
+alcohol and 2.23 per cent of solids in the original wort.
+
+[Footnote 1: U. S. Dept. Agr., Div. Chem., Bul. 13, 1887, pt. 3, p. 282.]
+
+
+CONCLUSIONS.
+
+The all-malt beers made in this country contain higher percentages of
+protein than the all-malt beers made in Europe, owing to the use in this
+country of a barley high in protein.
+
+The use of rice, corn or corn products, and brewer's sugar as
+substitutes for malt reduces the content of protein, ash, and phosphoric
+acid in the finished beer.
+
+This difference, as regards the protein, ash, and phosphoric acid, is a
+sufficient basis for distinguishing the all-malt beers made in this
+country from those containing the commercial mixtures of rice, corn,
+cerealin, and brewer's sugar.
+
+It is necessary to calculate analytical results to the basis of a common
+wort in order to interpret them properly.
+
+                   *       *       *       *       *
+
+                             ADDITIONAL COPIES
+                 OF THIS PUBLICATION MAY BE PROCURED FROM
+                     THE SUPERINTENDENT OF DOCUMENTS
+                        GOVERNMENT PRINTING OFFICE
+                             WASHINGTON, D. C.
+                                   AT
+                             5 CENTS PER COPY
+
+
+
+
+                           WASHINGTON: GOVERNMENT PRINTING OFFICE: 1917
+
+                   *       *       *       *       *
+
+Transcriber's notes:
+
+Removed italics marks '_' from tables in text version to make more readable
+
+Changed header in Table I, 7th column to read 'Reducing Sugars ...' instead
+of 'Reducing Sugar ...' to match identical headers in the other Tables
+
+
+
+
+
+End of the Project Gutenberg EBook of A Study Of American Beers and Ales, by 
+L.M. Tolman and J. Garfield Riley
+
+*** END OF THIS PROJECT GUTENBERG EBOOK A STUDY OF AMERICAN BEERS AND ALES ***
+
+***** This file should be named 25050-8.txt or 25050-8.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/2/5/0/5/25050/
+
+Produced by Bruce Thomas, Sigal Alon and the Online
+Distributed Proofreading Team at http://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

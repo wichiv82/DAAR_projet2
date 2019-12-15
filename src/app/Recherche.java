@@ -1,10 +1,11 @@
 package app;
 
 import java.io.IOException;
+
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
+import java.util.Iterator;
+import java.util.Map.Entry;
 import java.util.Set;
 import projet1.RadixTree;
 import util.Outils;
@@ -67,7 +68,7 @@ public class Recherche {
 	 * @param resultat_recherche
 	 * @return
 	 */
-	public Set<Node> suggestions(HashMap<Node, Integer> resultat_recherche, double edgeThreshold){
+	public ArrayList<Node> suggestions(HashMap<Node, Integer> resultat_recherche){
 		ArrayList<Node> liste_suggestions = new ArrayList<Node>();
 		
 		// Contient le nom des fichiers du resultat d'une recherche (resultat recherche)
@@ -77,21 +78,21 @@ public class Recherche {
 		.stream()
 		.forEach(x -> filenames_resultat_recherche.add(x.getName()));
 		
-		GrapheJaccard g = new GrapheJaccard(filenames_resultat_recherche, edgeThreshold);
-		
-		Map.Entry<Node,Integer> entry = resultat_recherche.entrySet().iterator().next();
+		Iterator<Entry<Node, Integer>> ite = resultat_recherche.entrySet().iterator();
 		
 		for(int i=0; i<3; i++)
-			liste_suggestions.add(entry.getKey());
+			liste_suggestions.add(ite.next().getKey());
 		
 		int nb_documents = liste_suggestions.size();
+		
 		for(int i=0; i<Math.min(3, nb_documents); i++)
-			liste_suggestions.addAll(liste_suggestions.get(i).getVoisins().keySet());
+			liste_suggestions.get(i).getVoisins().keySet()
+			.stream()
+			.filter(x -> !liste_suggestions.contains(x))
+			.forEach(x -> liste_suggestions.add(x));
+			
 		
-		Set<Node> res = new HashSet<Node>();
-		res.addAll(liste_suggestions);
-		
-		return res;
+		return liste_suggestions;
 	}
 	
 }

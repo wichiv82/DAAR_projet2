@@ -13,8 +13,6 @@ public class Launcher {
 		HashMap<String, Integer> doc2 = Jaccard.getOccurences("test2");
 		HashMap<String, Integer> doc3 = Jaccard.getOccurences("epic");
 		HashMap<String, Integer> doc4 = Jaccard.getOccurences("edgar");
-		HashMap<String, Integer> doc5 = Jaccard.getOccurences("democracy1.txt");
-		HashMap<String, Integer> doc6 = Jaccard.getOccurences("democracy2.txt");
 		
 		System.out.println(doc3.size());
 		System.out.println(doc4.size());
@@ -33,6 +31,10 @@ public class Launcher {
 		filename.add("epic");
 		filename.add("democracy1.txt");
 		filename.add("democracy2.txt");
+		filename.add("american-beers.txt");
+		filename.add("breewing-beer.txt");
+		filename.add("telephony-telegraphy.txt");
+		filename.add("the-telephone.txt");
 		
 		
 		System.out.println("------- Jaccard ------");
@@ -47,7 +49,7 @@ public class Launcher {
 		}
 		
 		System.out.println("------- Graphe de Jaccard ------");
-		double seuil = 1.0;
+		double seuil = 0.9;
 		GrapheJaccard g = new GrapheJaccard(filename, seuil);
 		System.out.println(g);
 		
@@ -55,7 +57,9 @@ public class Launcher {
 		Recherche r = new Recherche();
 		
 		System.out.println("------ Recherche classque ------");
-		HashMap<Node, Integer> rc = r.rechercheClassique(g.getSommets(), "America");
+		String mot_a_chercher = "America";
+		HashMap<Node, Integer> rc = r.rechercheClassique(g.getSommets(), mot_a_chercher);
+		System.out.println("Nombre d'occurrences du mot " + mot_a_chercher);
 		for(Node n : rc.keySet())
 			System.out.println(n.getName() + " : " + rc.get(n));
 		
@@ -65,7 +69,7 @@ public class Launcher {
 			System.out.println(n.getName());
 		
 		System.out.println("--------- Suggestions ----------");
-		Set<Node> s = r.suggestions(rc, 0.1);
+		ArrayList<Node> s = r.suggestions(rc);
 		for(Node n : s)
 			System.out.println(n.getName());
 		
