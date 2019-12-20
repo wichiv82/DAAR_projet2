@@ -5,6 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class Outils {
+	
 	/**
 	 * Methode auxilaire qui trie une HashMap en fonction de la valeur (ordre croissant)
 	 * @param map
@@ -36,4 +37,5 @@ public class Outils {
 		
 		return result;
 	}
+	
 }

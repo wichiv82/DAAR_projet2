@@ -16,13 +16,6 @@ public class Launcher {
 		
 		System.out.println(doc3.size());
 		System.out.println(doc4.size());
-		int nb = 0;
-		for (String mot : doc3.keySet())
-			nb += doc3.get(mot);
-		System.out.println(nb);
-		
-		String mot = "";
-		System.out.println("TEST FIREBSASE { " + mot + " : " + doc4.get(mot) +" }");
 		
 		ArrayList<String> filename = new ArrayList<String>();
 		filename.add("test1");
@@ -42,13 +35,13 @@ public class Launcher {
 		
 		System.out.println(Jaccard.distanceJaccard_stream(doc4, doc3));
 		
-		System.out.println("------ Closeness -----");
+		System.out.println("\n------ Closeness -----");
 		
 		for (int i=0; i<filename.size(); i++) {
 			System.out.println(Jaccard.closeness_stream(filename.get(i), filename));
 		}
 		
-		System.out.println("------- Graphe de Jaccard ------");
+		System.out.println("\n------- Graphe de Jaccard ------");
 		double seuil = 0.9;
 		GrapheJaccard g = new GrapheJaccard(filename, seuil);
 		System.out.println(g);
@@ -56,20 +49,27 @@ public class Launcher {
 		System.out.println("--------- Recherche -----------");
 		Recherche r = new Recherche();
 		
-		System.out.println("------ Recherche classque ------");
+		System.out.println("------ Recherche classique ------");
 		String mot_a_chercher = "America";
-		HashMap<Node, Integer> rc = r.rechercheClassique(g.getSommets(), mot_a_chercher);
+		HashMap<Node, Integer> rc = r.rechercheClassique(g, mot_a_chercher);
 		System.out.println("Nombre d'occurrences du mot " + mot_a_chercher);
 		for(Node n : rc.keySet())
 			System.out.println(n.getName() + " : " + rc.get(n));
 		
-		System.out.println("--- Classement par Centralite ---");
-		Set<Node> cpc = r.classementParCentralite(rc);
+		System.out.println("\n------ Recherche par RegEx -------");
+		String regEx = ".*";
+		HashMap<Node, Integer> rpre = r.rechercheParRegEx(g, regEx);
+		System.out.println(rpre.size() +" Fichiers matchant la RegEx " + regEx );
+		for(Node n : rpre.keySet())
+			System.out.println(n.getName());
+				
+		System.out.println("\n--- Classement par Centralite ---");
+		Set<Node> cpc = r.classementParCentralite(rc.keySet());
 		for(Node n : cpc)
 			System.out.println(n.getName());
 		
-		System.out.println("--------- Suggestions ----------");
-		ArrayList<Node> s = r.suggestions(rc);
+		System.out.println("\n--------- Suggestions ----------");
+		ArrayList<Node> s = r.suggestions(rc.keySet());
 		for(Node n : s)
 			System.out.println(n.getName());
 		

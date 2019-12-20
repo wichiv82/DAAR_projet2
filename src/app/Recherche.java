@@ -1,11 +1,9 @@
 package app;
 
 import java.io.IOException;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map.Entry;
 import java.util.Set;
 import projet1.RadixTree;
 import util.Outils;
@@ -21,10 +19,10 @@ public class Recherche {
 	 * @param mot
 	 * @return
 	 */
-	public HashMap<Node, Integer> rechercheClassique(ArrayList<Node> nodes, String mot) {
+	public HashMap<Node, Integer> rechercheClassique(GrapheJaccard graphe, String mot) {
 		HashMap<Node, Integer> filename_result = new HashMap<Node, Integer>();
 		
-		for(Node n : nodes) {
+		for(Node n : graphe.getSommets()) {
 			try {
 				RadixTree r = new RadixTree(n.getIndex());
 				int occurrences = r.searchMotif(mot).size();
@@ -41,17 +39,37 @@ public class Recherche {
 	}
 	
 	/**
+	 * Effectue un appel "egrep -l RegEx *" pour trouver tous les fichiers qui matchent la RegEx voulue
+	 * @param nodes
+	 * @param regEx
+	 * @return
+	 */
+	public HashMap<Node, Integer> rechercheParRegEx(GrapheJaccard g, String regEx) {
+		HashMap<Node, Integer> filename_result = new HashMap<Node, Integer>();
+		
+		Egrep e = new Egrep();
+		e.egrep(regEx);
+		ArrayList<String> files = e.getReponse_egrep();
+		for(String file: files) {
+			Node n = g.getNode(file);
+			if(n != null)
+				filename_result.put(n, 0);
+		}
+		return filename_result;
+	}
+	
+	/**
 	 * A partir d'une recherche, renvoie une liste de documents triee par indice de centralite (closeness ici)
 	 * @param resultat_recherche
 	 * @return
 	 */
-	public Set<Node> classementParCentralite(HashMap<Node, Integer> resultat_recherche){
+	public Set<Node> classementParCentralite(Set<Node> resultat_recherche){
 		// Contient l'indice de centralite de tous les documents dans resulat recherche
 		HashMap<Node, Double> indice_centralite = new HashMap<Node, Double>();
 		
 		// Contient le nom des fichiers du resultat d'une recherche (resultat recherche)
 		ArrayList<Node> files_resultat_recherche =  new ArrayList<>();
-		files_resultat_recherche.addAll(resultat_recherche.keySet());
+		files_resultat_recherche.addAll(resultat_recherche);
 		
 		for(Node n : files_resultat_recherche) {
 			indice_centralite.put(n,GrapheJaccard.closeness_stream(n, files_resultat_recherche));
@@ -68,20 +86,20 @@ public class Recherche {
 	 * @param resultat_recherche
 	 * @return
 	 */
-	public ArrayList<Node> suggestions(HashMap<Node, Integer> resultat_recherche){
+	public ArrayList<Node> suggestions(Set<Node> resultat_recherche){
 		ArrayList<Node> liste_suggestions = new ArrayList<Node>();
 		
 		// Contient le nom des fichiers du resultat d'une recherche (resultat recherche)
 		ArrayList<String> filenames_resultat_recherche =  new ArrayList<>();
 		
-		resultat_recherche.keySet()
+		resultat_recherche
 		.stream()
 		.forEach(x -> filenames_resultat_recherche.add(x.getName()));
 		
-		Iterator<Entry<Node, Integer>> ite = resultat_recherche.entrySet().iterator();
+		Iterator<Node> ite = resultat_recherche.iterator();
 		
 		for(int i=0; i<3; i++)
-			liste_suggestions.add(ite.next().getKey());
+			liste_suggestions.add(ite.next());
 		
 		int nb_documents = liste_suggestions.size();
 		

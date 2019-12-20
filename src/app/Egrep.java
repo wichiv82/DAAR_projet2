@@ -3,42 +3,52 @@ package app;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
-public class TestEgrep {
+public class Egrep {
 	
-	static void egrep(String[] commande) {
+	private ArrayList<String> reponse_egrep;
+	
+	public Egrep() {
+		reponse_egrep = new ArrayList<String>();
+	}
+	
+	public ArrayList<String> getReponse_egrep() {
+		return reponse_egrep;
+	}
+	
+	public void egrep(String regEx) {
 		Runtime runtime = Runtime.getRuntime();
+		String[] commande = {"/bin/sh", "-c", "egrep -l "+ regEx +" *"};
+		
 		try {
 			final Process process = runtime.exec(commande);
-			new Thread() {
-			    public void run() {
+			Thread t = new Thread() {
+				public void run() {
 			        try {
 			            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
 			            String line = "";
-			            String reponse = "";
 			            try {
+			            	reponse_egrep.clear();
 			                while((line = reader.readLine()) != null) {
-			                    reponse += line + "\n";
+			                    reponse_egrep.add(line);
 			                }
 			            } finally {
 			                reader.close();
-			                System.out.println("reponse =  \n" + reponse);
 			            }
 			        } catch(IOException ioe) {
 			            ioe.printStackTrace();
 			        }
-			    }
-			}.start();
+			   }
+			};
+			try {
+				t.start();
+				t.join();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
-	
-	
-	public static void main(String[] args) {
-		String[] commande = {"/bin/sh", "-c", "egrep Gutenberg democracy1.txt"};
-		//String[] commande = { "/bin/sh", "-c", "ls" };
-		//String[] commande = {"/bin/sh", "-c", "cat test1"};
-		egrep(commande);
 	}
 }
