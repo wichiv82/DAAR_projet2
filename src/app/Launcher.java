@@ -14,9 +14,6 @@ public class Launcher {
 		HashMap<String, Integer> doc3 = Jaccard.getOccurences("epic");
 		HashMap<String, Integer> doc4 = Jaccard.getOccurences("edgar");
 		
-		System.out.println(doc3.size());
-		System.out.println(doc4.size());
-		
 		ArrayList<String> filename = new ArrayList<String>();
 		filename.add("test1");
 		filename.add("test2");
@@ -57,11 +54,19 @@ public class Launcher {
 			System.out.println(n.getName() + " : " + rc.get(n));
 		
 		System.out.println("\n------ Recherche par RegEx -------");
-		String regEx = ".*";
-		HashMap<Node, Integer> rpre = r.rechercheParRegEx(g, regEx);
-		System.out.println(rpre.size() +" Fichiers matchant la RegEx " + regEx );
-		for(Node n : rpre.keySet())
-			System.out.println(n.getName());
+		
+		String os = System.getProperty("os.name");
+		System.out.println("Systeme actuel : " + os);
+		
+		if(os.startsWith("Windows")) {
+			System.out.println("La recherche par RegEx n'est pas supporte sur Windows");
+		} else {
+			String regEx = ".*";
+			HashMap<Node, Integer> rpre = r.rechercheParRegEx(g, regEx);
+			System.out.println(rpre.size() +" Fichiers matchant la RegEx " + regEx );
+			for(Node n : rpre.keySet())
+				System.out.println(n.getName());
+		}
 				
 		System.out.println("\n--- Classement par Centralite ---");
 		Set<Node> cpc = r.classementParCentralite(rc.keySet());
