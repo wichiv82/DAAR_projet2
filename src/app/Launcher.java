@@ -78,6 +78,9 @@ public class Launcher {
 		for(Node n : s)
 			System.out.println(n.getName());
 		
+		
+		g.toJSONFile();
+		
 //		Test de la classe Graphe
 //		Graphe G = new Graphe(4, "list_of_documents", 0);
 //		for (int i = 0; i < G.dist_jaccard.length; i++) {
