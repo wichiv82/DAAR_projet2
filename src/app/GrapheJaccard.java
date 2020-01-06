@@ -64,7 +64,7 @@ public class GrapheJaccard {
 	}
 
 	@SuppressWarnings("unchecked")
-	public void toJSONFile() {
+	public void toJSONFile_graphe() {
 		JSONArray graphe = new JSONArray();
 		for (Node n : sommets) {
 			JSONObject document = new JSONObject();
@@ -87,6 +87,38 @@ public class GrapheJaccard {
 
 			file.write(graphe.toJSONString());
 			file.flush();
+			System.out.println("Graphe JSON produit");
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@SuppressWarnings("unchecked")
+	public void toJSONFile_indexage() {
+		JSONArray index = new JSONArray();
+		for (Node n : sommets) {
+			JSONObject document = new JSONObject();
+			document.put("titre", n.getName());
+
+			JSONArray occurrences_json = new JSONArray();
+			HashMap<String, Integer> occurrences = n.getIndex();
+			for (String mot : occurrences.keySet()) {
+				JSONObject occurrence = new JSONObject();
+				occurrence.put("mot", mot);
+				occurrence.put("occurrence", occurrences.get(mot));
+				occurrences_json.add(occurrence);
+			}
+
+			document.put("voisins", occurrences_json);
+			index.add(document);
+		}
+
+		try (FileWriter file = new FileWriter("indexage.json")) {
+
+			file.write(index.toJSONString());
+			file.flush();
+			System.out.println("Indexage JSON produit");
 
 		} catch (IOException e) {
 			e.printStackTrace();

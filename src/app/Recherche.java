@@ -98,8 +98,10 @@ public class Recherche {
 		
 		Iterator<Node> ite = resultat_recherche.iterator();
 		
-		for(int i=0; i<3; i++)
-			liste_suggestions.add(ite.next());
+		for(int i=0; i<3; i++) {
+			if(ite.hasNext())
+				liste_suggestions.add(ite.next());
+		}
 		
 		int nb_documents = liste_suggestions.size();
 		

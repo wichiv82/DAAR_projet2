@@ -26,7 +26,6 @@ public class Launcher {
 		filename.add("telephony-telegraphy.txt");
 		filename.add("the-telephone.txt");
 		
-		
 		System.out.println("------- Jaccard ------");
 		System.out.println(Jaccard.distanceJaccard_stream(doc1, doc2));
 		
@@ -79,7 +78,8 @@ public class Launcher {
 			System.out.println(n.getName());
 		
 		
-		g.toJSONFile();
+		g.toJSONFile_graphe();
+		g.toJSONFile_indexage();
 		
 //		Test de la classe Graphe
 //		Graphe G = new Graphe(4, "list_of_documents", 0);
