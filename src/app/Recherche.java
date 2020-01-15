@@ -1,11 +1,9 @@
 package app;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Set;
-import projet1.RadixTree;
 import util.Outils;
 
 public class Recherche {
@@ -23,13 +21,11 @@ public class Recherche {
 		HashMap<Node, Integer> filename_result = new HashMap<Node, Integer>();
 		
 		for(Node n : graphe.getSommets()) {
-			try {
-				RadixTree r = new RadixTree(n.getIndex());
-				int occurrences = r.searchMotif(mot).size();
-				if(occurrences > 0)
-					filename_result.put(n, occurrences);
-			} catch (IOException e) {
-				e.printStackTrace();
+			Object result = n.getIndex().get(mot);
+			
+			if(result instanceof Integer) {
+				if((int)result > 0)
+					filename_result.put(n, (int) result);
 			}
 		}
 		
