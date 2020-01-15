@@ -60,7 +60,7 @@ public class Launcher {
 		if(os.startsWith("Windows")) {
 			System.out.println("La recherche par RegEx n'est pas supporte sur Windows");
 		} else {
-			String regEx = ".*";
+			String regEx = ".txt";
 			HashMap<Node, Integer> rpre = r.rechercheParRegEx(g, regEx);
 			System.out.println(rpre.size() +" Fichiers matchant la RegEx " + regEx );
 			for(Node n : rpre.keySet())
@@ -78,8 +78,8 @@ public class Launcher {
 			System.out.println(n.getName());
 		
 		
-		g.toJSONFile_graphe();
-		g.toJSONFile_indexage();
+		//g.toJSONFile_graphe();
+		//g.toJSONFile_indexage();
 		
 //		Test de la classe Graphe
 //		Graphe G = new Graphe(4, "list_of_documents", 0);

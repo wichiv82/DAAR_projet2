@@ -48,6 +48,14 @@ public class GrapheJaccard {
 
 		return (documents.size()) / denominateur;
 	}
+	
+	public HashMap<String, Double> getAllCloseness(){
+		HashMap<String, Double> result = new HashMap<>();
+		
+		this.sommets.stream().forEach(x -> result.put(x.getName(), closeness_stream(x, sommets)));
+		
+		return result;
+	}
 
 	public String toString() {
 		String result = "";
