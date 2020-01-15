@@ -1,8 +1,13 @@
 package util;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+
+import org.json.simple.JSONObject;
 
 public class Outils {
 	
@@ -36,6 +41,31 @@ public class Outils {
 	    .forEachOrdered(x -> result.put(x.getKey(), x.getValue()));
 		
 		return result;
+	}
+	
+	/**
+	 * Creee un fichier JSON a partir d'un objet JSON
+	 * @param json
+	 * @param filename
+	 */
+	public static void JSONObjectToJSONFile(JSONObject json, String filename) {
+		try (FileWriter file = new FileWriter(filename)) {
+
+			file.write(json.toJSONString());
+			file.flush();
+			System.out.println("Fichier JSON "+ filename + " produit !");
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@SuppressWarnings("unchecked")
+	public static <K, V> JSONObject HashMapToJSONObject(HashMap<K, V> map) {
+		JSONObject json = new JSONObject();
+		map.keySet().stream().forEach(x -> json.put(x, map.get(x)));
+		
+		return json;
 	}
 	
 }

@@ -16,7 +16,8 @@ public class Node {
 	private HashMap<Node, Double> voisins; 
 	
 	public Node(String filename) {
-		name = filename;
+		String[] chemin = filename.split("/");
+		name = chemin[chemin.length-1].replace('.', '_');
 		index = getOccurences(filename);
 		voisins = new HashMap<Node, Double>();
 	}
@@ -31,6 +32,10 @@ public class Node {
 	
 	public HashMap<Node, Double> getVoisins(){
 		return voisins;
+	}
+	
+	public void addVoisin(Node n, Double distance) {
+		voisins.put(n, distance);
 	}
 	
 	/**

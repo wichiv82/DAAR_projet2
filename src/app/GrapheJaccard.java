@@ -16,9 +16,11 @@ public class GrapheJaccard {
 
 		for (String filename : files)
 			sommets.add(new Node(filename));
-
-		for (int i = 0; i < sommets.size(); i++)
-			sommets.get(i).setVoisins(sommets, edgeThreshold);
+		/*
+		if(createVoisins)
+			for (int i = 0; i < sommets.size(); i++)
+				sommets.get(i).setVoisins(sommets, edgeThreshold);
+		*/
 	}
 
 	public ArrayList<Node> getSommets() {
@@ -35,6 +37,7 @@ public class GrapheJaccard {
 	public static double closeness_stream(Node n, ArrayList<Node> nodes) {
 		@SuppressWarnings("unchecked")
 		ArrayList<Node> documents = (ArrayList<Node>) nodes.clone();
+		System.out.println(nodes.indexOf(n));
 
 		// Cas ou le document a etudier est dans la liste
 		documents.remove(n);
@@ -57,16 +60,41 @@ public class GrapheJaccard {
 		return result;
 	}
 	
+	public HashMap<String, Double> getAllCloseness(double[][] tab){
+		HashMap<String, Double> result = new HashMap<>();
+		
+		for(int i=0; i<tab.length; i++) {
+			double denominateur = 0.0;
+			
+			for(int j=0; j<tab.length; j++) {
+				if(i!=j) {
+					denominateur += tab[i][j];
+				}
+			}
+			
+			if(denominateur == 0.0)
+				result.put(sommets.get(i).getName(), 0.0);
+			else
+				result.put(sommets.get(i).getName(), (sommets.size()-1)/denominateur);
+		}
+		
+		return result;
+	}
+	
 	
 	public double[][] getAllJaccardDistances(){
 		double [][] result = new double[sommets.size()][sommets.size()];
 		double distance = 0.0;
 		for(int i=0; i<result.length; i++) {
 			result[i][i] = -1;
+			System.out.println("Distance = " + i);
 			for(int j=i+1; j<result.length; j++) {
 				distance = sommets.get(i).distanceJaccard(sommets.get(j).getIndex());
 				result[i][j] = distance;
 				result[j][i] = distance;
+				
+				sommets.get(i).addVoisin(sommets.get(j), distance);
+				sommets.get(j).addVoisin(sommets.get(i), distance);
 			}
 		}
 		return result;
