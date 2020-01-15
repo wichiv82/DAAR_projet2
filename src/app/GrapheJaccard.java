@@ -56,6 +56,21 @@ public class GrapheJaccard {
 		
 		return result;
 	}
+	
+	
+	public double[][] getAllJaccardDistances(){
+		double [][] result = new double[sommets.size()][sommets.size()];
+		double distance = 0.0;
+		for(int i=0; i<result.length; i++) {
+			result[i][i] = -1;
+			for(int j=i+1; j<result.length; j++) {
+				distance = sommets.get(i).distanceJaccard(sommets.get(j).getIndex());
+				result[i][j] = distance;
+				result[j][i] = distance;
+			}
+		}
+		return result;
+	}
 
 	public String toString() {
 		String result = "";
