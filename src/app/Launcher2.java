@@ -18,7 +18,7 @@ public class Launcher2 {
 		File folder = new File(path);
 		File[] listOfFiles = folder.listFiles();
 		
-		int limite = 1800;
+		int limite = 50;
 		double tailleFichierMinimale = 50000.0; 
 		
 		ArrayList<String> files = new ArrayList<String>();
@@ -38,9 +38,9 @@ public class Launcher2 {
 		GrapheJaccard g = new GrapheJaccard(files, 0.75);
 		List<List<Double>> tab = g.getAllJaccardDistances();
 		
-		
-		
-		if(false) {
+		// AFFICHER LA MATRICE
+		boolean test = false;
+		if(test) {
 			for(List<Double> l : tab) {
 				for(Double d : l) {
 					System.out.print(d + " | ");
@@ -49,7 +49,6 @@ public class Launcher2 {
 			}
 			
 			return;
-			
 		}
 		
 		// PARTIE INDEXAGE
@@ -60,6 +59,7 @@ public class Launcher2 {
 		//Outils.JSONObjectToJSONFile(all_index_json, "Json/indexage.json");
 		
 		// PARTIE JACCARD 
+		System.out.println("DEBUT JACCARD");
 		JSONObject all_jaccard_json = new JSONObject();
 		
 		for(int i=0; i<tab.size(); i++) {
@@ -74,9 +74,11 @@ public class Launcher2 {
 		//Outils.JSONObjectToJSONFile(all_jaccard_json, "Json/graphe.json");
 		
 		// PARTIE CLOSENESS
+		System.out.println("DEBUT Closeness");
 		JSONObject all_closeness_json = Outils.HashMapToJSONObject(g.getAllCloseness());
 		
 		//Outils.JSONObjectToJSONFile(all_closeness_json, "Json/closeness.json");
+		System.out.println("PRODUCTION DU JSON en cours");
 		
 		JSONObject JSON_final = new JSONObject();
 		JSON_final.put("graphe", all_jaccard_json);

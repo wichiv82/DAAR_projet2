@@ -45,7 +45,7 @@ public class GrapheJaccard {
 		// Cas ou le document a etudier est dans la liste
 		documents.remove(n);
 
-		double denominateur = documents.stream().map(x -> x.distanceJaccard(n.getIndex())).reduce(0.0, Double::sum);
+		double denominateur = documents.stream().parallel().map(x -> x.distanceJaccard(n.getIndex())).reduce(0.0, Double::sum);
 
 		if (denominateur == 0.0)
 			return 0;
@@ -56,7 +56,7 @@ public class GrapheJaccard {
 	public HashMap<String, Double> getAllCloseness(){
 		HashMap<String, Double> result = new HashMap<>();
 		
-		this.sommets.stream().forEach(x -> result.put(x.getName(), closeness_stream(x, sommets)));
+		this.sommets.stream().parallel().forEach(x -> result.put(x.getName(), closeness_stream(x, sommets)));
 		
 		return result;
 	}
@@ -86,8 +86,8 @@ public class GrapheJaccard {
 	
 	public List<List<Double>> getAllJaccardDistances(){
 		
-		List<List<Double>> distances = sommets.parallelStream().map(
-				x -> sommets.parallelStream().map(voisin -> jaccard(x, voisin)).collect(Collectors.toList())			
+		List<List<Double>> distances = sommets.stream().parallel().map(
+				x -> sommets.stream().parallel().map(voisin -> jaccard(x, voisin)).collect(Collectors.toList())			
 		).collect(Collectors.toList());
 		
 		
