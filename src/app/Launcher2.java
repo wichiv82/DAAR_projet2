@@ -2,7 +2,10 @@ package app;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 import org.json.simple.JSONObject;
 
@@ -18,7 +21,7 @@ public class Launcher2 {
 		File folder = new File(path);
 		File[] listOfFiles = folder.listFiles();
 		
-		int limite = 50;
+		int limite = 3;
 		double tailleFichierMinimale = 50000.0; 
 		
 		ArrayList<String> files = new ArrayList<String>();
@@ -53,23 +56,34 @@ public class Launcher2 {
 		
 		// PARTIE INDEXAGE
 		System.out.println("DEBUT INDEXAGE");
-		JSONObject all_index_json = new JSONObject();
-		g.getSommets().stream().forEach(n -> all_index_json.put(n.getName(), Outils.HashMapToJSONObject(n.getIndex())));
+		HashMap<String, Object> all_index = new HashMap<>(
+			g.getSommets().stream().parallel().collect(Collectors.toMap(n -> n.getName(), n -> Outils.HashMapToJSONObject(n.getIndex())))
+		);
+		
+		JSONObject all_index_json = Outils.HashMapToJSONObject(all_index);
+		
+		//map(n -> n.getName(), Outils.HashMapToJSONObject(n.getIndex()) ));
 		
 		//Outils.JSONObjectToJSONFile(all_index_json, "Json/indexage.json");
 		
 		// PARTIE JACCARD 
 		System.out.println("DEBUT JACCARD");
-		JSONObject all_jaccard_json = new JSONObject();
 		
-		for(int i=0; i<tab.size(); i++) {
-			JSONObject node = new JSONObject();
-			for(int j=0; j<tab.size(); j++) {
-				if(i != j)
-					node.put(g.getSommets().get(j).getName(), tab.get(i).get(j));
-			}
-			all_jaccard_json.put(g.getSommets().get(i).getName(), node);
-		}
+//		for(int i=0; i<tab.size(); i++) {
+//			JSONObject node = new JSONObject();
+//			for(int j=0; j<tab.size(); j++) {
+//				if(i != j)
+//					node.put(g.getSommets().get(j).getName(), tab.get(i).get(j));
+//			}
+//			all_jaccard_json.put(g.getSommets().get(i).getName(), node);
+//		}
+		
+		HashMap<String, Object> all_jaccard = new HashMap<>(
+			g.getSommets().stream().parallel().collect(
+					Collectors.toMap(n -> n.getName(), n -> Outils.HashMapToJSONObjectForNodeNeighbours(n.getVoisins()))
+		));
+		
+		JSONObject all_jaccard_json = Outils.HashMapToJSONObject(all_jaccard);
 		
 		//Outils.JSONObjectToJSONFile(all_jaccard_json, "Json/graphe.json");
 		
@@ -99,4 +113,7 @@ public class Launcher2 {
 		
 		
 	}
+	
+	
+	
 }

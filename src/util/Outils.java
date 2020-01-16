@@ -9,6 +9,8 @@ import java.util.Map;
 
 import org.json.simple.JSONObject;
 
+import app.Node;
+
 public class Outils {
 	
 	/**
@@ -64,6 +66,14 @@ public class Outils {
 	public static <K, V> JSONObject HashMapToJSONObject(HashMap<K, V> map) {
 		JSONObject json = new JSONObject();
 		map.keySet().stream().forEach(x -> json.put(x, map.get(x)));
+		
+		return json;
+	}
+	
+	@SuppressWarnings("unchecked")
+	public static JSONObject HashMapToJSONObjectForNodeNeighbours(HashMap<Node, Double> map) {
+		JSONObject json = new JSONObject();
+		map.keySet().stream().forEach(x -> json.put(x.getName(), map.get(x)));
 		
 		return json;
 	}
