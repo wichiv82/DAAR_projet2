@@ -11,6 +11,8 @@ import java.util.stream.Collectors;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
+import util.Paire;
+
 public class GrapheJaccard {
 	private ArrayList<Node> sommets;
 
@@ -45,7 +47,7 @@ public class GrapheJaccard {
 		// Cas ou le document a etudier est dans la liste
 		documents.remove(n);
 
-		double denominateur = documents.stream().parallel().map(x -> x.distanceJaccard(n.getIndex())).reduce(0.0, Double::sum);
+		double denominateur = documents.parallelStream().map(x -> x.distanceJaccard(n.getIndex())).reduce(0.0, Double::sum);
 
 		if (denominateur == 0.0)
 			return 0;
@@ -53,12 +55,27 @@ public class GrapheJaccard {
 		return (documents.size()) / denominateur;
 	}
 	
+	public static double closeness_stream(Node n) {
+		@SuppressWarnings("unchecked")
+
+		double denominateur = 
+		n.getVoisins()
+			.keySet()
+			.parallelStream()
+			.map(x -> n.getVoisins().get(x)).reduce(0.0, Double::sum);
+
+		if (denominateur == 0.0)
+			return 0;
+
+		return (n.getVoisins().size()) / denominateur;
+	}
+	
 	public HashMap<String, Double> getAllCloseness(){
 		AtomicInteger cpt = new AtomicInteger(0);
 		
 		HashMap<String, Double> result = new HashMap<>(
-			sommets.stream().parallel().peek(e -> System.out.println(cpt.getAndIncrement()))
-			.collect(Collectors.toMap(x -> x.getName(), x -> closeness_stream(x, sommets)))
+			sommets.parallelStream().peek(e -> System.out.println(cpt.getAndIncrement()))
+			.collect(Collectors.toMap(x -> x.getName(), x -> closeness_stream(x)))
 		);
 
 		return result;
@@ -91,13 +108,29 @@ public class GrapheJaccard {
 		AtomicInteger cpt = new AtomicInteger(0);
 		
 		List<List<Double>> distances = sommets.stream().parallel().map(
+
 				x -> sommets.stream().parallel().map(voisin -> jaccard(x, voisin)).collect(Collectors.toList())			
+
 		).peek(e -> System.out.println(cpt.getAndIncrement())).collect(Collectors.toList());
+		
+//		List<List<Double>> distances;
+//		
+//		List<Paire> paires = sommets.parallelStream()
+//				.map(x -> new Paire(x, sommets))
+//				.collect(Collectors.toList());
+
+//				paires.parallelStream()
+//				.flatMap(p -> p)
+//				.map(p -> jaccard(ps, voisin))
+//				.collect(Collectors.toList())
+//				.peek(e -> System.out.println(cpt.getAndIncrement())).collect(Collectors.toList());
+		
 
 		return distances;
 	}
 	
 	public double jaccard(Node x, Node voisin) {
+		//System.out.println(x.getName() + " jaccard");
 		if(x.equals(voisin)) {
 			return -1.0;
 		} else {

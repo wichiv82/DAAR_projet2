@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import util.Outils;
 
@@ -110,18 +113,24 @@ public class Node {
 	 * @return
 	 */
 	public double distanceJaccard(HashMap<String, Integer> d) {
+		//System.out.println(getName() + " debut distanceJaccard");
 		HashSet<String> mots = new HashSet<String>(index.keySet());
 		mots.addAll(d.keySet());
 		
+//		Set<String> mots = Stream.concat(index.keySet().stream(), d.keySet().stream())
+//		        .collect(Collectors.toSet());
+		
 		double numerateur = 
-		mots.stream()
+		mots.parallelStream()
 			.map(mot -> getMaxMin(index, d, mot)[0] - getMaxMin(index, d, mot)[1])
 			.reduce(0, Integer::sum);
 		
 		double denominateur = 
-		mots.stream()
+		mots.parallelStream()
 			.map(mot -> getMaxMin(index, d, mot)[0])
 			.reduce(0, Integer::sum);
+		
+		//System.out.println(getName() + " fin distanceJaccard");
 		
 		if(denominateur == 0)
 			return 0;

@@ -19,7 +19,7 @@ public class Launcher2 {
 		File folder = new File(path);
 		File[] listOfFiles = folder.listFiles();
 		
-		int limite = 2000;
+		int limite = 50;
 		double tailleFichierMinimale = 50000.0; 
 		
 		ArrayList<String> files = new ArrayList<String>();
@@ -36,12 +36,13 @@ public class Launcher2 {
 		
 		System.out.println("CONSTRUCTION DU GRAPHE");
 		GrapheJaccard g = new GrapheJaccard(files, 0.75);
+		System.out.println("Nodes construits");
 		g.getAllJaccardDistances();
 		
 		// PARTIE INDEXAGE
 		System.out.println("DEBUT INDEXAGE");
 		HashMap<String, Object> all_index = new HashMap<>(
-			g.getSommets().stream().parallel().collect(Collectors.toMap(n -> n.getName(), n -> Outils.HashMapToJSONObject(n.getIndex())))
+			g.getSommets().parallelStream().collect(Collectors.toMap(n -> n.getName(), n -> Outils.HashMapToJSONObject(n.getIndex())))
 		);
 		
 		JSONObject all_index_json = Outils.HashMapToJSONObject(all_index);
@@ -49,12 +50,16 @@ public class Launcher2 {
 		// PARTIE JACCARD 
 		System.out.println("DEBUT JACCARD");
 		
-		HashMap<String, Object> all_jaccard = new HashMap<>(
-			g.getSommets().stream().parallel().collect(
-					Collectors.toMap(n -> n.getName(), n -> Outils.HashMapToJSONObjectForNodeNeighbours(n.getVoisins()))
-		));
+//		HashMap<String, Object> all_jaccard = new HashMap<>(
+//			g.getSommets().parallelStream().collect(
+//					Collectors.toMap(n -> n.getName(), n -> Outils.HashMapToJSONObjectForNodeNeighbours(n.getVoisins()))
+//		));
 		
-		JSONObject all_jaccard_json = Outils.HashMapToJSONObject(all_jaccard);
+		JSONObject all_jaccard_json = new JSONObject();
+		g.getSommets()
+		.parallelStream()
+		.forEach(n -> all_jaccard_json.put(n.getName(),  Outils.HashMapToJSONObjectForNodeNeighbours(n.getVoisins())));
+		//= Outils.HashMapToJSONObject(all_jaccard);
 		
 		// PARTIE CLOSENESS
 		System.out.println("DEBUT Closeness");
