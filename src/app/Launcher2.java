@@ -19,7 +19,7 @@ public class Launcher2 {
 		File folder = new File(path);
 		File[] listOfFiles = folder.listFiles();
 		
-		int limite = 50;
+		int limite = 2000;
 		double tailleFichierMinimale = 50000.0; 
 		
 		ArrayList<String> files = new ArrayList<String>();

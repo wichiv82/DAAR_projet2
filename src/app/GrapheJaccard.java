@@ -54,8 +54,11 @@ public class GrapheJaccard {
 	}
 	
 	public HashMap<String, Double> getAllCloseness(){
+		AtomicInteger cpt = new AtomicInteger(0);
+		
 		HashMap<String, Double> result = new HashMap<>(
-			sommets.stream().parallel().collect(Collectors.toMap(x -> x.getName(), x -> closeness_stream(x, sommets)))
+			sommets.stream().parallel().peek(e -> System.out.println(cpt.getAndIncrement()))
+			.collect(Collectors.toMap(x -> x.getName(), x -> closeness_stream(x, sommets)))
 		);
 
 		return result;
