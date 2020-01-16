@@ -106,19 +106,21 @@ public class GrapheJaccard {
 	public List<List<Double>> getAllJaccardDistances(){
 		AtomicInteger cpt = new AtomicInteger(0);
 		
-//		List<List<Double>> distances = sommets.stream().parallel().map(
-//
-//				x -> sommets.stream().parallel().map(voisin -> jaccard(x, voisin)).collect(Collectors.toList())			
-//
-//		).peek(e -> System.out.println(cpt.getAndIncrement())).collect(Collectors.toList());
-		
-		List<List<Double>> distances;
-		
-		List<Paire> paires = sommets.parallelStream()
-				.map(x -> new Paire(x, sommets))
-				.collect(Collectors.toList());
+		List<List<Double>> distances = sommets.stream().parallel().map(
 
-		distances = sommets.parallelStream().flatMap(s -> sommets.stream().map(v -> jaccard(s, v))).collect(Collectors.toList());
+				x -> sommets.subList(sommets.indexOf(x)+1, sommets.size()).stream().parallel().map(voisin -> jaccard(x, voisin)).collect(Collectors.toList())			
+
+		).peek(e -> System.out.println(cpt.getAndIncrement())).collect(Collectors.toList());
+		
+		
+		
+//		List<List<Double>> distances;
+//		
+//		List<Paire> paires = sommets.parallelStream()
+//				.map(x -> new Paire(x, sommets))
+//				.collect(Collectors.toList());
+//
+//		distances = sommets.parallelStream().flatMap(s -> sommets.stream().map(v -> jaccard(s, v))).collect(Collectors.toList());
 
 
 //				.collect(Collectors.toList())
@@ -135,6 +137,7 @@ public class GrapheJaccard {
 		} else {
 			double distance = x.distanceJaccard(voisin.getIndex());
 			x.addVoisin(voisin, distance);
+			voisin.addVoisin(x, distance);
 			return distance;
 		}
 	}

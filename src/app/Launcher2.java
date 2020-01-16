@@ -20,13 +20,15 @@ public class Launcher2 {
 		File[] listOfFiles = folder.listFiles();
 		
 		int limite = 1800;
-		double tailleFichierMinimale = 50000.0; 
+		double tailleFichierMinimale = 51200.0; 
+		double tailleFichierMaximale = 1024000.0;
 		
 		ArrayList<String> files = new ArrayList<String>();
 		
 		for (int i=0; i<listOfFiles.length; i++) {
-			if(listOfFiles[i].length() >= tailleFichierMinimale) {
+			if(listOfFiles[i].length() >= tailleFichierMinimale && listOfFiles[i].length() <= tailleFichierMaximale) {
 				files.add(path + listOfFiles[i].getName());
+				System.out.println(listOfFiles[i].length()/1024.0);
 			}
 			
 			if(files.size() >= limite) {
@@ -34,10 +36,15 @@ public class Launcher2 {
 			}
 		}
 		
+		folder = null;
+		listOfFiles = null;
+		
 		System.out.println("CONSTRUCTION DU GRAPHE");
 		GrapheJaccard g = new GrapheJaccard(files, 0.75);
 		System.out.println("Nodes construits");
 		g.getAllJaccardDistances();
+		
+		JSONObject JSON_final = new JSONObject();
 		
 		// PARTIE INDEXAGE
 		System.out.println("DEBUT INDEXAGE");
@@ -45,7 +52,10 @@ public class Launcher2 {
 			g.getSommets().parallelStream().collect(Collectors.toMap(n -> n.getName(), n -> Outils.HashMapToJSONObject(n.getIndex())))
 		);
 		
-		JSONObject all_index_json = Outils.HashMapToJSONObject(all_index);
+		//JSONObject all_index_json = Outils.HashMapToJSONObject(all_index);
+		JSON_final.put("indexage", Outils.HashMapToJSONObject(all_index));
+		all_index.clear();
+		all_index = null;
 		
 		// PARTIE JACCARD 
 		System.out.println("DEBUT JACCARD");
@@ -63,14 +73,14 @@ public class Launcher2 {
 		
 		// PARTIE CLOSENESS
 		System.out.println("DEBUT Closeness");
-		JSONObject all_closeness_json = Outils.HashMapToJSONObject(g.getAllCloseness());
+		//JSONObject all_closeness_json = Outils.HashMapToJSONObject(g.getAllCloseness());
+		JSON_final.put("closeness", Outils.HashMapToJSONObject(g.getAllCloseness()));
 		
 		System.out.println("PRODUCTION DU JSON en cours");
 		
-		JSONObject JSON_final = new JSONObject();
 		JSON_final.put("graphe", all_jaccard_json);
-		JSON_final.put("indexage", all_index_json);
-		JSON_final.put("closeness", all_closeness_json);
+//		JSON_final.put("indexage", all_index_json);
+//		JSON_final.put("closeness", all_closeness_json);
 		
 		Outils.JSONObjectToJSONFile(JSON_final, "Json/daar-projet3.json");
 		
