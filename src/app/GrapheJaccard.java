@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 import org.json.simple.JSONArray;
@@ -53,10 +54,10 @@ public class GrapheJaccard {
 	}
 	
 	public HashMap<String, Double> getAllCloseness(){
-		HashMap<String, Double> result = new HashMap<>();
-		
-		this.sommets.stream().parallel().forEach(x -> result.put(x.getName(), closeness_stream(x, sommets)));
-		
+		HashMap<String, Double> result = new HashMap<>(
+			sommets.stream().parallel().collect(Collectors.toMap(x -> x.getName(), x -> closeness_stream(x, sommets)))
+		);
+
 		return result;
 	}
 	
@@ -84,10 +85,11 @@ public class GrapheJaccard {
 	*/
 	
 	public List<List<Double>> getAllJaccardDistances(){
+		AtomicInteger cpt = new AtomicInteger(0);
 		
 		List<List<Double>> distances = sommets.stream().parallel().map(
 				x -> sommets.stream().parallel().map(voisin -> jaccard(x, voisin)).collect(Collectors.toList())			
-		).collect(Collectors.toList());
+		).peek(e -> System.out.println(cpt.getAndIncrement())).collect(Collectors.toList());
 
 		return distances;
 	}
