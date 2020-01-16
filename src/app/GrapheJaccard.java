@@ -56,7 +56,6 @@ public class GrapheJaccard {
 	}
 	
 	public static double closeness_stream(Node n) {
-		@SuppressWarnings("unchecked")
 
 		double denominateur = 
 		n.getVoisins()
@@ -107,21 +106,21 @@ public class GrapheJaccard {
 	public List<List<Double>> getAllJaccardDistances(){
 		AtomicInteger cpt = new AtomicInteger(0);
 		
-		List<List<Double>> distances = sommets.stream().parallel().map(
-
-				x -> sommets.stream().parallel().map(voisin -> jaccard(x, voisin)).collect(Collectors.toList())			
-
-		).peek(e -> System.out.println(cpt.getAndIncrement())).collect(Collectors.toList());
+//		List<List<Double>> distances = sommets.stream().parallel().map(
+//
+//				x -> sommets.stream().parallel().map(voisin -> jaccard(x, voisin)).collect(Collectors.toList())			
+//
+//		).peek(e -> System.out.println(cpt.getAndIncrement())).collect(Collectors.toList());
 		
-//		List<List<Double>> distances;
-//		
-//		List<Paire> paires = sommets.parallelStream()
-//				.map(x -> new Paire(x, sommets))
-//				.collect(Collectors.toList());
+		List<List<Double>> distances;
+		
+		List<Paire> paires = sommets.parallelStream()
+				.map(x -> new Paire(x, sommets))
+				.collect(Collectors.toList());
 
-//				paires.parallelStream()
-//				.flatMap(p -> p)
-//				.map(p -> jaccard(ps, voisin))
+		distances = sommets.parallelStream().flatMap(s -> sommets.stream().map(v -> jaccard(s, v))).collect(Collectors.toList());
+
+
 //				.collect(Collectors.toList())
 //				.peek(e -> System.out.println(cpt.getAndIncrement())).collect(Collectors.toList());
 		
