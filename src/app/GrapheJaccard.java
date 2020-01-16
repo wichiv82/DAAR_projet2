@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import org.json.simple.JSONArray;
@@ -89,21 +88,6 @@ public class GrapheJaccard {
 		List<List<Double>> distances = sommets.stream().parallel().map(
 				x -> sommets.stream().parallel().map(voisin -> jaccard(x, voisin)).collect(Collectors.toList())			
 		).collect(Collectors.toList());
-		
-		
-		/*
-		for(int i=0; i<result.length; i++) {
-			result[i][i] = -1;
-			System.out.println("Distance = " + i);
-			for(int j=i+1; j<result.length; j++) {
-				distance = sommets.get(i).distanceJaccard(sommets.get(j).getIndex());
-				result[i][j] = distance;
-				result[j][i] = distance;
-				
-				sommets.get(i).addVoisin(sommets.get(j), distance);
-				sommets.get(j).addVoisin(sommets.get(i), distance);
-			}
-		}*/
 
 		return distances;
 	}
