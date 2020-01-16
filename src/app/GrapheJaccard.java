@@ -4,6 +4,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -42,9 +45,7 @@ public class GrapheJaccard {
 		// Cas ou le document a etudier est dans la liste
 		documents.remove(n);
 
-		HashMap<String, Integer> doc_occurences = n.getIndex();
-
-		double denominateur = documents.stream().map(x -> x.distanceJaccard(doc_occurences)).reduce(0.0, Double::sum);
+		double denominateur = documents.stream().map(x -> x.distanceJaccard(n.getIndex())).reduce(0.0, Double::sum);
 
 		if (denominateur == 0.0)
 			return 0;
@@ -60,6 +61,7 @@ public class GrapheJaccard {
 		return result;
 	}
 	
+	/*
 	public HashMap<String, Double> getAllCloseness(double[][] tab){
 		HashMap<String, Double> result = new HashMap<>();
 		
@@ -80,11 +82,16 @@ public class GrapheJaccard {
 		
 		return result;
 	}
+	*/
 	
-	
-	public double[][] getAllJaccardDistances(){
-		double [][] result = new double[sommets.size()][sommets.size()];
-		double distance = 0.0;
+	public List<List<Double>> getAllJaccardDistances(){
+		
+		List<List<Double>> distances = sommets.parallelStream().map(
+				x -> sommets.parallelStream().map(voisin -> jaccard(x, voisin)).collect(Collectors.toList())			
+		).collect(Collectors.toList());
+		
+		
+		/*
 		for(int i=0; i<result.length; i++) {
 			result[i][i] = -1;
 			System.out.println("Distance = " + i);
@@ -96,8 +103,19 @@ public class GrapheJaccard {
 				sommets.get(i).addVoisin(sommets.get(j), distance);
 				sommets.get(j).addVoisin(sommets.get(i), distance);
 			}
+		}*/
+
+		return distances;
+	}
+	
+	public double jaccard(Node x, Node voisin) {
+		if(x.equals(voisin)) {
+			return -1.0;
+		} else {
+			double distance = x.distanceJaccard(voisin.getIndex());
+			x.addVoisin(voisin, distance);
+			return distance;
 		}
-		return result;
 	}
 
 	public String toString() {
