@@ -11,13 +11,13 @@ import java.util.stream.Collectors;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import util.Paire;
-
 public class GrapheJaccard {
 	private ArrayList<Node> sommets;
+	private double edgeThreshold;
 
 	public GrapheJaccard(ArrayList<String> files, double edgeThreshold) {
 		sommets = new ArrayList<Node>();
+		this.edgeThreshold = edgeThreshold;
 
 		for (String filename : files)
 			sommets.add(new Node(filename));
@@ -26,6 +26,10 @@ public class GrapheJaccard {
 			for (int i = 0; i < sommets.size(); i++)
 				sommets.get(i).setVoisins(sommets, edgeThreshold);
 		*/
+	}
+	
+	public double getEdgeThreshold() {
+		return this.edgeThreshold;
 	}
 
 	public ArrayList<Node> getSommets() {
@@ -108,7 +112,12 @@ public class GrapheJaccard {
 		
 		List<List<Double>> distances = sommets.stream().parallel().map(
 
-				x -> sommets.subList(sommets.indexOf(x)+1, sommets.size()).stream().parallel().map(voisin -> jaccard(x, voisin)).collect(Collectors.toList())			
+				x -> sommets.subList(sommets.indexOf(x)+1, sommets.size())
+				.stream()
+				.parallel()
+				.map(voisin -> jaccard(x, voisin))
+				.filter(d -> d <= edgeThreshold)
+				.collect(Collectors.toList())			
 
 		).peek(e -> System.out.println(cpt.getAndIncrement())).collect(Collectors.toList());
 		

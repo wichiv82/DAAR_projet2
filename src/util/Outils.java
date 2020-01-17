@@ -71,10 +71,11 @@ public class Outils {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public static JSONObject HashMapToJSONObjectForNodeNeighbours(HashMap<Node, Double> map) {
+	public static JSONObject HashMapToJSONObjectForNodeNeighbours(HashMap<Node, Double> map, double edgeThreshold) {
 		JSONObject json = new JSONObject();
-		map.keySet().stream().forEach(x -> json.put(x.getName(), map.get(x)));
-		
+		map.keySet().stream().filter(n -> map.get(n) <= edgeThreshold).forEach(x -> json.put(x.getName(), map.get(x)));
+		if(json.keySet().size() == 0)
+			System.out.println("ATTENTION NOEUD ISOLE !!!");
 		return json;
 	}
 	

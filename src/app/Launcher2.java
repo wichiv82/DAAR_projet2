@@ -3,6 +3,7 @@ package app;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.stream.Collectors;
 
 import org.json.simple.JSONObject;
@@ -14,14 +15,15 @@ public class Launcher2 {
 	@SuppressWarnings("unchecked")
 	public static void main (String[] args) {
 		// chemin du dossier contenant les livres
-		String path = "C:/Users/Willy/Documents/UPMC/DAAR/books-master/";
+		//String path = "C:/Users/Willy/Documents/UPMC/DAAR/books-master/";
+		String path = "/Vrac/books_daar/books-master/";
 		
 		File folder = new File(path);
 		File[] listOfFiles = folder.listFiles();
 		
-		int limite = 1800;
-		double tailleFichierMinimale = 51200.0; 
-		double tailleFichierMaximale = 1024000.0;
+		int limite = 3;
+		double tailleFichierMinimale = 61440.0; 
+		double tailleFichierMaximale = 307200.0;
 		
 		ArrayList<String> files = new ArrayList<String>();
 		
@@ -35,6 +37,8 @@ public class Launcher2 {
 				break;
 			}
 		}
+		
+		System.out.println(files.size() + " fichiers selectionnes");
 		
 		folder = null;
 		listOfFiles = null;
@@ -68,7 +72,7 @@ public class Launcher2 {
 		JSONObject all_jaccard_json = new JSONObject();
 		g.getSommets()
 		.parallelStream()
-		.forEach(n -> all_jaccard_json.put(n.getName(),  Outils.HashMapToJSONObjectForNodeNeighbours(n.getVoisins())));
+		.forEach(n -> all_jaccard_json.put(n.getName(),  Outils.HashMapToJSONObjectForNodeNeighbours(n.getVoisins(), g.getEdgeThreshold())));
 		//= Outils.HashMapToJSONObject(all_jaccard);
 		
 		// PARTIE CLOSENESS
