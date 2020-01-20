@@ -15,15 +15,15 @@ public class Launcher2 {
 	@SuppressWarnings("unchecked")
 	public static void main (String[] args) {
 		// chemin du dossier contenant les livres
-		//String path = "C:/Users/Willy/Documents/UPMC/DAAR/books-master/";
-		String path = "/Vrac/books_daar/books-master/";
+		String path = "C:/Users/Willy/Documents/UPMC/DAAR/books-master/";
+		//String path = "/Vrac/books_daar/books-master/";
 		
 		File folder = new File(path);
 		File[] listOfFiles = folder.listFiles();
 		
-		int limite = 3;
+		int limite = 100;
 		double tailleFichierMinimale = 1024.0 * 60; 
-		double tailleFichierMaximale = 1024.0 * 1000;
+		double tailleFichierMaximale = 1024.0 * 2000;
 		
 		ArrayList<String> files = new ArrayList<String>();
 		
@@ -44,7 +44,7 @@ public class Launcher2 {
 		listOfFiles = null;
 		
 		System.out.println("CONSTRUCTION DU GRAPHE");
-		GrapheJaccard g = new GrapheJaccard(files, 0.75);
+		GrapheJaccard g = new GrapheJaccard(files, 0.9);
 		System.out.println("Nodes construits");
 		g.getAllJaccardDistances();
 		
