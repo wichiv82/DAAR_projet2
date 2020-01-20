@@ -21,9 +21,9 @@ public class Launcher2 {
 		File folder = new File(path);
 		File[] listOfFiles = folder.listFiles();
 		
-		int limite = 100;
-		double tailleFichierMinimale = 1024.0 * 60; 
-		double tailleFichierMaximale = 1024.0 * 2000;
+		int limite = 3;
+		double tailleFichierMinimale = 1024.0 * 1; 
+		double tailleFichierMaximale = 1024.0 * 10;
 		
 		ArrayList<String> files = new ArrayList<String>();
 		
@@ -85,8 +85,10 @@ public class Launcher2 {
 		JSON_final.put("graphe", all_jaccard_json);
 //		JSON_final.put("indexage", all_index_json);
 //		JSON_final.put("closeness", all_closeness_json);
+		JSONObject JSON_final_final = new JSONObject();
+		JSON_final_final.put("Base de Gutenberg", JSON_final);
 		
-		Outils.JSONObjectToJSONFile(JSON_final, "Json/daar-projet3.json");
+		Outils.JSONObjectToJSONFile(JSON_final_final, "Json/daar-projet3.json");
 		
 		
 		
