@@ -21,7 +21,7 @@ public class Launcher2 {
 		File folder = new File(path);
 		File[] listOfFiles = folder.listFiles();
 		
-		int limite = 1800;
+		int limite = 3;
 		double tailleFichierMinimale = 1024.0 * 60; 
 		double tailleFichierMaximale = 1024.0 * 300;
 		
