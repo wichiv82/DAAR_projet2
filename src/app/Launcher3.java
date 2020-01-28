@@ -19,7 +19,7 @@ public class Launcher3 {
 		File folder = new File(path);
 		File[] listOfFiles = folder.listFiles();
 		
-		int limite = 3;
+		int limite = 1800;
 		double tailleFichierMinimale = 1024.0 * 60; 
 		double tailleFichierMaximale = 1024.0 * 300;
 		
@@ -42,7 +42,7 @@ public class Launcher3 {
 		listOfFiles = null;
 		
 		System.out.println("CONSTRUCTION DU GRAPHE");
-		GrapheJaccard g = new GrapheJaccard(files, 1.0);
+		GrapheJaccard g = new GrapheJaccard(files, 0.75);
 		System.out.println("Nodes construits");
 		g.getAllJaccardDistances();
 		
