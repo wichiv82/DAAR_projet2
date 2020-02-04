@@ -14,15 +14,15 @@ public class Launcher4 {
 	
 	public static void main(String[] args) {
 		String path = "Json/";
-		String filename = "daar-projet3-indexage.json";
-		String section = "indexage";
+		String filename = "daar-projet3-graphe.json";
+		String section = "graphe";
 		
 		JSONObject gutenberg = readJSONFile(path, filename, section);
 		
-		String destinationPath = "Json/Parts/";
-		String filenames = "3-indexage";
-		String[] others = {"closeness", "graphe"};
-		int taillePaquet = 40;
+		String destinationPath = "Json/Parts-graphe/";
+		String filenames = "1800-indexage";
+		String[] others = {"indexage", "closeness"};
+		int taillePaquet = 50;
 		boolean deleteFolder = true;
 		
 		writeMultipleJSONFile(gutenberg, destinationPath, filenames, section, others, taillePaquet, deleteFolder);
