@@ -14,13 +14,13 @@ public class Launcher4 {
 	
 	public static void main(String[] args) {
 		String path = "Json/";
-		String filename = "daar-projet3-graphe.json";
-		String section = "graphe";
+		String filename = "daar-projet3-indexage.json";
+		String section = "indexage";
 		
 		JSONObject gutenberg = readJSONFile(path, filename, section);
 		
-		String destinationPath = "Json/Parts-graphe/";
-		String filenames = "1800-indexage";
+		String destinationPath = "Json/Parts/";
+		String filenames = "40-indexage";
 		String[] others = {"indexage", "closeness"};
 		int taillePaquet = 50;
 		boolean deleteFolder = true;
