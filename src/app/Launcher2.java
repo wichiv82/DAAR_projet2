@@ -3,7 +3,6 @@ package app;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.stream.Collectors;
 
 import org.json.simple.JSONObject;
@@ -12,6 +11,9 @@ import util.Outils;
 
 public class Launcher2 {
 	
+	/**
+	 * Produit un gros JSON des donnees dans un seul fichier 
+	 */
 	@SuppressWarnings("unchecked")
 	public static void main (String[] args) {
 		// chemin du dossier contenant les livres

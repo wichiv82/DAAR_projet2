@@ -84,28 +84,6 @@ public class GrapheJaccard {
 		return result;
 	}
 	
-	/*
-	public HashMap<String, Double> getAllCloseness(double[][] tab){
-		HashMap<String, Double> result = new HashMap<>();
-		
-		for(int i=0; i<tab.length; i++) {
-			double denominateur = 0.0;
-			
-			for(int j=0; j<tab.length; j++) {
-				if(i!=j) {
-					denominateur += tab[i][j];
-				}
-			}
-			
-			if(denominateur == 0.0)
-				result.put(sommets.get(i).getName(), 0.0);
-			else
-				result.put(sommets.get(i).getName(), (sommets.size()-1)/denominateur);
-		}
-		
-		return result;
-	}
-	*/
 	
 	public List<List<Double>> getAllJaccardDistances(){
 		AtomicInteger cpt = new AtomicInteger(0);
@@ -121,21 +99,6 @@ public class GrapheJaccard {
 
 		).peek(e -> System.out.println(cpt.getAndIncrement())).collect(Collectors.toList());
 		
-		
-		
-//		List<List<Double>> distances;
-//		
-//		List<Paire> paires = sommets.parallelStream()
-//				.map(x -> new Paire(x, sommets))
-//				.collect(Collectors.toList());
-//
-//		distances = sommets.parallelStream().flatMap(s -> sommets.stream().map(v -> jaccard(s, v))).collect(Collectors.toList());
-
-
-//				.collect(Collectors.toList())
-//				.peek(e -> System.out.println(cpt.getAndIncrement())).collect(Collectors.toList());
-		
-
 		return distances;
 	}
 	

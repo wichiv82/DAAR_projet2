@@ -5,6 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+/**
+ * Appel Systeme sur la methode Egrep de Linux
+ * @author Willy
+ *
+ */
 public class Egrep {
 	
 	private ArrayList<String> reponse_egrep;

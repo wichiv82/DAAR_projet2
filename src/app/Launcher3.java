@@ -10,17 +10,24 @@ import org.json.simple.JSONObject;
 import util.Outils;
 
 public class Launcher3 {
+	
+	/**
+	 * Produit 1 fichier JSON pour chaque champ de notre BDD :
+	 * indexage
+	 * graphe
+	 * closeness
+	 */
 	@SuppressWarnings("unchecked")
 	public static void main (String[] args) {
 		// chemin du dossier contenant les livres
-		//String path = "C:/Users/Willy/Documents/UPMC/DAAR/books-master/";
-		String path = "/Vrac/books_daar/books-master/";
+		String path = "C:/Users/Willy/Documents/UPMC/DAAR/TEST/";
+		//String path = "/Vrac/books_daar/books-master/";
 		
 		File folder = new File(path);
 		File[] listOfFiles = folder.listFiles();
 		
-		int limite = 40;
-		double tailleFichierMinimale = 1024.0 * 60; 
+		int limite = 3;
+		double tailleFichierMinimale = 1024.0 * 0; 
 		double tailleFichierMaximale = 1024.0 * 300;
 		
 		ArrayList<String> files = new ArrayList<String>();
@@ -42,7 +49,7 @@ public class Launcher3 {
 		listOfFiles = null;
 		
 		System.out.println("CONSTRUCTION DU GRAPHE");
-		GrapheJaccard g = new GrapheJaccard(files, 0.75);
+		GrapheJaccard g = new GrapheJaccard(files, 1);
 		System.out.println("Nodes construits");
 		g.getAllJaccardDistances();
 		

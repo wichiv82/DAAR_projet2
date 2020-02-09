@@ -12,6 +12,10 @@ import org.json.simple.parser.ParseException;
 
 public class Launcher4 {
 	
+	/**
+	 * Decoupe un fichier JSON en plusieurs fichiers JSON
+	 * pour faire rentrer les donnees dans le Firestore
+	 */
 	public static void main(String[] args) {
 		String path = "Json/";
 		String filename = "daar-projet3-indexage.json";

@@ -6,6 +6,9 @@ import java.util.Set;
 
 public class Launcher {
 
+	/*
+	 * Test des fonctionnalités du projet
+	 */
 	public static void main (String[] args) {
 		
 //		Test de la classe Jacquard		

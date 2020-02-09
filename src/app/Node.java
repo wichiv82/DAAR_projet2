@@ -111,12 +111,8 @@ public class Node {
 	 * @return
 	 */
 	public double distanceJaccard(HashMap<String, Integer> d) {
-		//System.out.println(getName() + " debut distanceJaccard");
 		HashSet<String> mots = new HashSet<String>(index.keySet());
 		mots.addAll(d.keySet());
-		
-//		Set<String> mots = Stream.concat(index.keySet().stream(), d.keySet().stream())
-//		        .collect(Collectors.toSet());
 		
 		double numerateur = 
 		mots.parallelStream()
